@@ -1,726 +1,1865 @@
 
-
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-<title>W3Schools Online Web Tutorials</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="Keywords" content="HTML,CSS,JavaScript,DOM,jQuery,PHP,SQL,XML,Bootstrap,Web,W3CSS,W3C,tutorials,programming,development,training,learning,quiz,primer,lessons,reference,examples,source code,colors,demos,tips,w3c">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="w3css/4/w3.css">
+<html lang="en" itemscope itemtype="http://schema.org/Article">
+  <head>
+<script src="https://cdn.optimizely.com/js/2511420542.js"></script>
+
+    <meta charset="UTF-8">
+
+
+    <title>Cloudflare - The Web Performance & Security Company | Cloudflare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Here at Cloudflare, we make the Internet work the way it should. Offering CDN, DNS, DDoS protection and security, find out how we can help your site.">
+    <link rel="canonical" href="https://www.cloudflare.com/">
+    
+    <meta itemprop="name" content="Cloudflare - The Web Performance & Security Company | Cloudflare">
+    <meta itemprop="description" content="Here at Cloudflare, we make the Internet work the way it should. Offering CDN, DNS, DDoS protection and security, find out how we can help your site.">
+    <meta itemprop="image" content="https://www.cloudflare.com/img/network-map/network-map-gradient.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Cloudflare - The Web Performance & Security Company | Cloudflare">
+    <meta name="twitter:description" content="Here at Cloudflare, we make the Internet work the way it should. Offering CDN, DNS, DDoS protection and security, find out how we can help your site.">
+    <meta name="twitter:site" content="@cloudflare">
+    <meta name="twitter:creator" content="@cloudflare">
+    
+    <meta name="twitter:image" content="https://www.cloudflare.com/img/network-map/network-map-gradient.png">
+    <meta property="og:title" content="Cloudflare - The Web Performance & Security Company | Cloudflare" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.cloudflare.com/" />
+    
+    <meta property="og:image" content="https://www.cloudflare.com/img/network-map/network-map-gradient.png" />
+    <meta property="og:description" content="Here at Cloudflare, we make the Internet work the way it should. Offering CDN, DNS, DDoS protection and security, find out how we can help your site." />
+    <meta property="og:site_name" content="Cloudflare" />
+    <meta class="swiftype" name="language" data-type="string" content="en" />
+    <meta class="swiftype" name="title" data-type="string" content="Cloudflare - The Web Performance & Security Company" />
+    <meta class="swiftype" name="description" data-type="string" content="Here at Cloudflare, we make the Internet work the way it should. Offering CDN, DNS, DDoS protection and security, find out how we can help your site." />
+    <meta class="swiftype" name="url" data-type="enum" content="https://www.cloudflare.com/" />
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="Cloudflare"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/mstile-310x310.png" />
+
+    
+    <noscript><style>.nojs-hide{display: none;}</style></noscript>
+
+    <link rel="stylesheet" href="/css/application-14038490d7.css">
+<link rel="alternate" hreflang="pt-br" href="https://www.cloudflare.com/br/" />
+<link rel="alternate" hreflang="de" href="https://www.cloudflare.com/de/" />
+<link rel="alternate" hreflang="es" href="https://www.cloudflare.com/es/" />
+<link rel="alternate" hreflang="fr" href="https://www.cloudflare.com/fr/" />
+
 <script>
-(function() {
-var cx = '012971019331610648934:m2tou3_miwy';
-var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
-gcse.src = 'https://www.google.com/cse/cse.js?cx=' + cx;
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
-})();
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-3855518-1', 'auto');
-ga('require', 'displayfeatures');
-ga('send', 'pageview');
+  !function(a){var b=/iPhone/i,c=/iPod/i,d=/iPad/i,e=/(?=.*\bAndroid\b)(?=.*\bMobile\b)/i,f=/Android/i,g=/(?=.*\bAndroid\b)(?=.*\bSD4930UR\b)/i,h=/(?=.*\bAndroid\b)(?=.*\b(?:KFOT|KFTT|KFJWI|KFJWA|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|KFARWI|KFASWI|KFSAWI|KFSAWA)\b)/i,i=/IEMobile/i,j=/(?=.*\bWindows\b)(?=.*\bARM\b)/i,k=/BlackBerry/i,l=/BB10/i,m=/Opera Mini/i,n=/(CriOS|Chrome)(?=.*\bMobile\b)/i,o=/(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,p=new RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)","i"),q=function(a,b){return a.test(b)},r=function(a){var r=a||navigator.userAgent,s=r.split("[FBAN");return"undefined"!=typeof s[1]&&(r=s[0]),s=r.split("Twitter"),"undefined"!=typeof s[1]&&(r=s[0]),this.apple={phone:q(b,r),ipod:q(c,r),tablet:!q(b,r)&&q(d,r),device:q(b,r)||q(c,r)||q(d,r)},this.amazon={phone:q(g,r),tablet:!q(g,r)&&q(h,r),device:q(g,r)||q(h,r)},this.android={phone:q(g,r)||q(e,r),tablet:!q(g,r)&&!q(e,r)&&(q(h,r)||q(f,r)),device:q(g,r)||q(h,r)||q(e,r)||q(f,r)},this.windows={phone:q(i,r),tablet:q(j,r),device:q(i,r)||q(j,r)},this.other={blackberry:q(k,r),blackberry10:q(l,r),opera:q(m,r),firefox:q(o,r),chrome:q(n,r),device:q(k,r)||q(l,r)||q(m,r)||q(o,r)||q(n,r)},this.seven_inch=q(p,r),this.any=this.apple.device||this.android.device||this.windows.device||this.other.device||this.seven_inch,this.phone=this.apple.phone||this.android.phone||this.windows.phone,this.tablet=this.apple.tablet||this.android.tablet||this.windows.tablet,"undefined"==typeof window?this:void 0},s=function(){var a=new r;return a.Class=r,a};"undefined"!=typeof module&&module.exports&&"undefined"==typeof window?module.exports=r:"undefined"!=typeof module&&module.exports&&"undefined"!=typeof window?module.exports=s():"function"==typeof define&&define.amd?define("isMobile",[],a.isMobile=s()):a.isMobile=s()}(this);
 </script>
-<style>
-/* W3Schools Font Logo */
-.w3schools-logo {
-font-family:fontawesome;
-text-decoration:none;
-line-height: 1;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-font-size:37px;
-letter-spacing:3px;
-color:#555555;
-display:block;
-position:relative;
-}
-.w3schools-logo .dotcom {color:#4CAF50;}
-@font-face {
-font-family:'fontawesome';
-src:url('../lib/fonts/fontawesome.eot?14663396#iefix') format('embedded-opentype'),
-url('../lib/fonts/fontawesome.woff?14663396') format('woff'),
-url('../lib/fonts/fontawesome.ttf?14663396') format('truetype'),
-url('../lib/fonts/fontawesome.svg?14663396#fontawesome') format('svg');
-font-style:normal;
-}
-.fa {
-display:inline-block;
-font:normal normal normal 14px/1 FontAwesome;
-font-size:20px;
-text-rendering:auto;
--webkit-font-smoothing:antialiased;
--moz-osx-font-smoothing:grayscale;
-transform:translate(0,0);
-}
-.fa-home:before {content:'\e800';}
-.fa-menu:before {content: '\f0c9';}
-.fa-globe:before {content:'\e801';}
-.fa-search:before {content:'\e802'; }
-.fa-thumbs-o-up:before {content:'\e803';}
-.fa-left-open:before {content:'\e804';}
-.fa-right-open:before {content:'\e805';}
-.fa-caret-down:before {content:'\e809';}
-.fa-caret-up:before {content:'\e80a';}
-/* Google */
-#nav_translate, #nav_search {display:none;}
-#nav_translate a {display:inline;}
-#googleSearch {color:#000000;}
-.searchdiv {
-max-width:400px;
-margin:auto;
-text-align:left;
-font-size:16px;
-}
-div.cse .gsc-control-cse, div.gsc-control-cse {
-background-color:transparent;
-border:none;
-padding:0px;
-margin:0px;
-}
-td.gsc-search-button input.gsc-search-button {background-color:#555555;border-color:#555555;}
-input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button {
-box-sizing:content-box;
-line-height:normal;
-}
-.gsc-tabsArea div {overflow:visible;}
-.gsst_a .gscb_a {margin-top:3px;}
-/* Customize W3.CSS */
-#nav_tutorials,#nav_references,#nav_examples {
-display:none;
-padding-bottom:40px;
-position:absolute;
-width:100%;
-z-index:99 !important;
-}
-.w3-col .w3-button {
-margin:5px 5px 5px 0;
-font-size:16px;
-}
-.w3-col.l4 .w3-card-2 {
-padding:15px 10px;
-height:260px;
-}
-.w3-theme {color:#fff !important;background-color:#4CAF50 !important;}
-.w3-main {margin-left:230px;}
-.w3-sidebar {
-z-index:3;
-width:230px;
-overflow:hidden !important;
-position:absolute !important;
-margin-bottom:-155px;
-}
-.w3-sidebar .w3-bar-block .w3-bar-item{
-padding:0 16px;
-font-size:16px; 
-}
-.w3-bar {
-position:relative;
-z-index:4;
-font-size:17px;
-}
-.w3-wide {
-font-family:"Segoe UI",Arial,sans-serif;
-}
-h1 {
-font-size:80px;
-color:#555555;
-margin:2px 0 -20px 0 !important;
-}
-.certoverlay {
-  position:absolute;
-  top:0;
-  background-color:rgba(0, 0, 0, 0.5);
-  width:100%;
-  text-align:center;
-  padding:15px
-}
-.certoverlay h2 {
-  margin:10px 0 0 0;
-  font-size:36px;
-}
-.certoverlay h3 {
-  margin:0 0 10px 0;
-}
 
-@media screen and (min-width:769px){.w3-sidebar.w3-collapse{display:block !important;}}
-@media screen and (min-width:769px){#myAccordion,.hidesm{display:none !important;}}
-@media screen and (min-width:769px){.w3-main{margin-left:230px !important;}.w3-bar-block .w3-button{padding:0;}}
-@media screen and (max-width:768px){.w3-sidebar.w3-collapse,.barex,.navex{display:none !important;}.w3-bar-block .w3-bar-item{text-align:center !important;padding:2px 0;}h1,.w3-jumbo{font-size:60px !important;}}
-@media screen and (max-width:545px){.certoverlay{padding:10px;height:100%;}.certoverlay h3{font-size:15px;}}
-@media screen and (max-width:380px){.getcert{position:absolute;text-align:center;left:50%;bottom:50%;font-size:13px;}}
-@media only screen and (max-device-width: 1366px){.w3-hide-device{display:none;}}
-</style>
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-</head>
-<body style="position:relative;min-height:100%;">
+    
 
-<div class="w3-row w3-white w3-padding w3-hide-medium w3-hide-small" style="margin-top:5px;">
- <div class="w3-half" style="margin:4px 0 6px 0"><a class='w3schools-logo' href='//www.w3schools.com'>w3schools<span class='dotcom'>.com</span></a></div>
- <div class="w3-half w3-margin-top w3-wide w3-hide-medium w3-hide-small">
-  <div class="w3-right" style="position:relative;top:5px;">THE WORLD'S LARGEST WEB DEVELOPER SITE</div>
- </div>
-</div>
+<script>
+window.CFJS = window.CFJS || {};
 
-<div class="w3-hide-large w3-hide-large w3-padding-16">
- <div class="w3-center"><a class='w3schools-logo' href='//www.w3schools.com'>w3schools<span class='dotcom'>.com</span></a></div>
- <div class="w3-center w3-wide w3-hide-small" style="margin:14px 0 -5px 0">THE WORLD'S LARGEST WEB DEVELOPER SITE</div>
-</div>
+  window.CFJS.Helpers = (function(window){
+    var data;
+    window.traceDataObj = {};
 
-<div style='display:none;position:absolute;z-index:6;right:60px;height:57px;padding-top:12px;padding-right:20px;background-color:#4CAF50;' id='googleSearch'><div class='gcse-search'></div></div>
-<div style='display:none;position:absolute;z-index:5;right:120px;height:57px;background-color:#4CAF50;text-align:right;padding-top:15px;' id='google_translate_element'></div>
+    var _processData = function(x) {
+      var y = {};
+      for (var i = 0; i < x.length-1; i++) {
+        var split = x[i].split('=');
+        y[split[0].trim()] = split[1].trim();
+      }
+      return y;
+    }
 
-<div class="w3-bar w3-theme w3-card-2 w3-wide">
- <a class="w3-bar-item w3-button w3-hover-white w3-padding-16 hidesm" href="javascript:void(0)" onclick="w3_open()"><i class='fa'>&#xf0c9;</i></a>
- <a class="w3-bar-item w3-button barex w3-hover-white w3-padding-16" href="javascript:void(0)" onclick="w3_open_nav('tutorials')" id="navbtn_tutorials">TUTORIALS <i class='fa fa-caret-down'></i><i class='fa fa-caret-up' style="display:none"></i></a>
- <a class="w3-bar-item w3-button barex w3-hover-white w3-padding-16" href="javascript:void(0)" onclick="w3_open_nav('references')" id="navbtn_references">REFERENCES <i class='fa fa-caret-down'></i><i class='fa fa-caret-up' style="display:none"></i></a>
- <a class="w3-bar-item w3-button barex w3-hover-white w3-padding-16" href="javascript:void(0)" onclick="w3_open_nav('examples')" id="navbtn_examples">EXAMPLES <i class='fa fa-caret-down'></i><i class='fa fa-caret-up' style="display:none"></i></a>
-  <div class="w3-right">
-  <a class="w3-bar-item w3-button w3-hover-white w3-padding-16 w3-right" href="javascript:void(0)" onclick="open_search(this)" title='Search W3Schools'><i class='fa'>&#xe802;</i></a>
-  <a class="w3-bar-item w3-button w3-hover-white w3-padding-16 w3-right" href="javascript:void(0)" onclick="open_translate(this)" title='Translate W3Schools'><i class='fa'>&#xe801;</i></a>
-</div>
-</div>
+    // Get trace data asynchronously
+    var _getTraceData = function() {
+      return new Promise(function(resolve, reject) {
+        var client = new XMLHttpRequest();
+        client.open("GET", "/cdn-cgi/trace", true);
+        client.timeout = 4500;
+        client.onload = function () {
+          if(client.status === 200 || client.status == 0){
+            data = client.responseText.split("\n");
+            window.traceDataObj = _processData(data);
+            resolve();
+          } else {
+            reject(Error(client.statusText));
+          }
+        };
+        client.ontimeout = function () {
+          reject(Error("Orange cloud timeout"));
+        };
+        client.onerror = function() {
+          reject(Error("Orange cloud network Error"));
+        };
+        client.send();
+      })
+    }
 
-<nav class="w3-sidebar w3-collapse w3-white w3-card-2" id="mySidenav">
-<div class="w3-bar-block">
- <div class="w3-container">
-  <h4 class="w3-margin-top">HTML and CSS</h4>
- </div>
- <a class="w3-bar-item w3-button" href="/html/default.asp">Learn HTML</a>
- <a class="w3-bar-item w3-button" href="/css/default.asp">Learn CSS</a>
- <a class="w3-bar-item w3-button" href="/w3css/default.asp">Learn W3.CSS</a>
- <a class="w3-bar-item w3-button" href="/colors/default.asp">Learn Colors</a>
- <a class="w3-bar-item w3-button" href="/bootstrap/default.asp">Learn Bootstrap 3</a>
- <a class="w3-bar-item w3-button" href="/bootstrap4/default.asp">Learn Bootstrap 4</a>
- <a class="w3-bar-item w3-button" href="/icons/default.asp">Learn Icons</a>
- <a class="w3-bar-item w3-button" href="/graphics/default.asp">Learn Graphics</a>
- <a class="w3-bar-item w3-button" href="/howto/default.asp">Learn How To</a>
- <div class="w3-container">
-  <h4 class="w3-margin-top">JavaScript</h4>
- </div>
- <a class="w3-bar-item w3-button" href="/js/default.asp">Learn JavaScript</a>
- <a class="w3-bar-item w3-button" href="/jquery/default.asp">Learn jQuery</a>
- <a class="w3-bar-item w3-button" href="/angular/default.asp">Learn AngularJS</a>
- <a class="w3-bar-item w3-button" href="/js/js_json_intro.asp">Learn JSON</a>
- <a class="w3-bar-item w3-button" href="/js/js_ajax_intro.asp">Learn AJAX</a>
- <div class="w3-container">
-  <h4 class="w3-margin-top">Server Side</h4>
- </div>
- <a class="w3-bar-item w3-button" href="/sql/default.asp">Learn SQL</a>
- <a class="w3-bar-item w3-button" href="/php/default.asp">Learn PHP</a>
- <a class="w3-bar-item w3-button" href='/asp/default.asp'>Learn ASP</a>
- <a class="w3-bar-item w3-button" href='/nodejs/default.asp'>Learn Node.js</a>
- <a class="w3-bar-item w3-button" href='/nodejs/nodejs_raspberrypi.asp'>Learn Raspberry Pi</a>
- <div class="w3-container">
-  <h4 class="w3-margin-top">Web Building</h4>
- </div>
- <a class="w3-bar-item w3-button" href="/w3css/w3css_templates.asp">Web Templates</a>
- <a class="w3-bar-item w3-button" href="/browsers/default.asp">Web Statistics</a>
- <a class="w3-bar-item w3-button" href="/cert/default.asp">Web Certificates</a>
- <a class="w3-bar-item w3-button" href='/tryit/default.asp'>Web Editor</a>
- <div class="w3-container">
-  <h4 class="w3-margin-top">XML Tutorials</h4>
- </div>
- <a class="w3-bar-item w3-button" href="/xml/default.asp">Learn XML</a>
- <a class="w3-bar-item w3-button" href='/xml/ajax_intro.asp'>Learn XML AJAX</a>
- <a class="w3-bar-item w3-button" href="/xml/dom_intro.asp">Learn XML DOM</a>
- <a class="w3-bar-item w3-button" href='/xml/xml_dtd_intro.asp'>Learn XML DTD</a>
- <a class="w3-bar-item w3-button" href='/xml/schema_intro.asp'>Learn XML Schema</a>
- <a class="w3-bar-item w3-button" href="/xml/xsl_intro.asp">Learn XSLT</a>
- <a class="w3-bar-item w3-button" href='/xml/xpath_intro.asp'>Learn XPath</a>
- <a class="w3-bar-item w3-button" href='/xml/xquery_intro.asp'>Learn XQuery</a>
-</div>
+    // traceData() must be called before any /cdn-cgi/trace data can be returned
+    var traceData = function() {
+      if (Object.keys(window.traceDataObj).length > 0) {
+        // Trace data populated
+        return Promise.resolve();
+      } else {
+        // Populate trace data object
+        return _getTraceData();
+      }
+    }
 
-</nav>
+    var isIPv6 = function() {
+      var ip = window.traceDataObj['ip'];
+      ipv6 = (ip.indexOf(":") > -1);
+      switch (ipv6) {
+        case true:
+          return "IPv6";
+          break;
+        default:
+          return "IPv4";
+      }
+    }
 
-<div id='myAccordion' class="w3-card-2 w3-light-grey w3-center w3-hide-large" style="display:none;cursor:default">
- <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-xlarge w3-right">&times;</a><br>
- <div class="w3-container w3-padding-32">
-  <a class="w3-button w3-block w3-large w3-wide" onclick="open_xs_menu('tutorials');" href="javascript:void(0);">TUTORIALS <i class='fa fa-caret-down'></i></a>
-  <div id="sectionxs_tutorials" class="w3-white w3-show"></div>
-  <a class="w3-button w3-block w3-large w3-wide" onclick="open_xs_menu('references')" href="javascript:void(0);">REFERENCES <i class='fa fa-caret-down'></i></a>
-  <div id="sectionxs_references" class="w3-white w3-show"></div>
-  <a class="w3-button w3-block w3-large w3-wide" onclick="open_xs_menu('examples')" href="javascript:void(0);">EXAMPLES <i class='fa fa-caret-down'></i></a>
-  <div id="sectionxs_examples" class="w3-white w3-show"></div>
- </div>
-</div>
+    return {
+      traceData: traceData,
+      isIPv6: isIPv6
+    };
+  })(window);
+</script>
+<script>
+  window.CFJS = window.CFJS || {};
 
-<nav id="nav_tutorials" class="w3-light-grey w3-card-2 w3-hide-small navex">
- <span onclick="w3_close_nav('tutorials')" class="w3-button w3-xlarge w3-display-topright barex">&times;</span><br>
- <div class="w3-row-padding w3-bar-block">
-  <div class="w3-col l3 m6">
-   <h3 class="w3-margin-top">HTML and CSS</h3>
-   <a class="w3-bar-item w3-button" href="/html/default.asp">Learn HTML</a>
-   <a class="w3-bar-item w3-button" href="/css/default.asp">Learn CSS</a>
-   <a class="w3-bar-item w3-button" href="/w3css/default.asp">Learn W3.CSS</a>
-   <a class="w3-bar-item w3-button" href="/colors/default.asp">Learn Colors</a>
-   <a class="w3-bar-item w3-button" href="/bootstrap/default.asp">Learn Bootstrap 3</a>
-   <a class="w3-bar-item w3-button" href="/bootstrap4/default.asp">Learn Bootstrap 4</a>
-   <a class="w3-bar-item w3-button" href="/icons/default.asp">Learn Icons</a>
-   <a class="w3-bar-item w3-button" href="/graphics/default.asp">Learn Graphics</a>
-   <a class="w3-bar-item w3-button" href="/howto/default.asp">Learn How To</a>
-   <div class="w3-hide-large w3-hide-small">
-   <h3 class="w3-margin-top">XML Tutorials</h3>
-   <a class="w3-bar-item w3-button" href="/xml/default.asp">Learn XML</a>
-   <a class="w3-bar-item w3-button" href='/xml/ajax_intro.asp'>Learn XML AJAX</a>
-   <a class="w3-bar-item w3-button" href="/xml/dom_intro.asp">Learn XML DOM</a>
-   <a class="w3-bar-item w3-button" href='/xml/xml_dtd_intro.asp'>Learn XML DTD</a>
-   <a class="w3-bar-item w3-button" href='/xml/schema_intro.asp'>Learn XML Schema</a>
-   <a class="w3-bar-item w3-button" href="/xml/xsl_intro.asp">Learn XSLT</a>
-   <a class="w3-bar-item w3-button" href='/xml/xpath_intro.asp'>Learn XPath</a>
-   <a class="w3-bar-item w3-button" href='/xml/xquery_intro.asp'>Learn XQuery</a>
-  </div>
-  </div>
-  <div class="w3-col l3 m6">
-   <h3 class="w3-margin-top">JavaScript</h3>
-   <a class="w3-bar-item w3-button" href="/js/default.asp">Learn JavaScript</a>
-   <a class="w3-bar-item w3-button" href="/jquery/default.asp">Learn jQuery</a>
-   <a class="w3-bar-item w3-button" href="/angular/default.asp">Learn AngularJS</a>
-   <a class="w3-bar-item w3-button" href="/js/js_json_intro.asp">Learn JSON</a>
-   <a class="w3-bar-item w3-button" href="/js/js_ajax_intro.asp">Learn AJAX</a>
-  </div> 
- <div class="w3-col l3 m6">
-   <h3 class="w3-margin-top">Server Side</h3>
-   <a class="w3-bar-item w3-button" href="/sql/default.asp">Learn SQL</a>
-   <a class="w3-bar-item w3-button" href="/php/default.asp">Learn PHP</a>
-   <a class="w3-bar-item w3-button" href='/asp/default.asp'>Learn ASP</a>
-   <a class="w3-bar-item w3-button" href='/nodejs/default.asp'>Learn Node.js</a>
-   <a class="w3-bar-item w3-button" href='/nodejs/nodejs_raspberrypi.asp'>Learn Raspberry Pi</a>
+  window.CFJS.Tools = (function() {
+    var EUCookieCountryList = ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'GB', 'CH', 'LI', 'IS', 'NO'];
+    var getCookieValue = function(name) {
+    var cookieRegex = new RegExp(name + "=([^;]+)");
+    var value = cookieRegex.exec(document.cookie);
+      return (value != null) ? unescape(value[1]) : null;
+    };
 
-   <h3 class="w3-margin-top">Web Building</h3>
-   <a class="w3-bar-item w3-button" href="/w3css/w3css_templates.asp">Web Templates</a>
-   <a class="w3-bar-item w3-button" href="/browsers/default.asp">Web Statistics</a>
-   <a class="w3-bar-item w3-button" href="/cert/default.asp">Web Certificates</a>
-   <a class="w3-bar-item w3-button" href='/tryit/default.asp'>Web Editor</a>
-  </div>
-  <div class="w3-col l3 m6 w3-hide-medium">
-   <h3 class="w3-margin-top">XML Tutorials</h3>
-   <a class="w3-bar-item w3-button" href="/xml/default.asp">Learn XML</a>
-   <a class="w3-bar-item w3-button" href='/xml/ajax_intro.asp'>Learn XML AJAX</a>
-   <a class="w3-bar-item w3-button" href="/xml/dom_intro.asp">Learn XML DOM</a>
-   <a class="w3-bar-item w3-button" href='/xml/xml_dtd_intro.asp'>Learn XML DTD</a>
-   <a class="w3-bar-item w3-button" href='/xml/schema_intro.asp'>Learn XML Schema</a>
-   <a class="w3-bar-item w3-button" href="/xml/xsl_intro.asp">Learn XSLT</a>
-   <a class="w3-bar-item w3-button" href='/xml/xpath_intro.asp'>Learn XPath</a>
-   <a class="w3-bar-item w3-button" href='/xml/xquery_intro.asp'>Learn XQuery</a>
-  </div>
- </div>
- <br class="hidesm">
-</nav>
+    // Searches for a particular url parameter by name
+    var getUrlParameter = function getUrlParameter(paramName) {
+      var pageURL = decodeURIComponent(window.location.search.substring(1)),
+          urlVariables = pageURL.split('&'),
+          currentParam,
+          i;
 
-<nav id="nav_references" class="w3-light-grey w3-card-2 w3-hide-small navex">
- <span onclick="w3_close_nav('references')" class="w3-button w3-xlarge w3-display-topright barex">&times;</span><br>
- <div class="w3-row-padding w3-bar-block">
-  <div class="w3-col m6">
-   <h3 class="w3-margin-top">HTML</h3>
-   <a class="w3-bar-item w3-button" href='/tags/default.asp'>HTML Tag Reference</a>
-   <a class="w3-bar-item w3-button" href='/tags/ref_eventattributes.asp'>HTML Event Reference</a>
-   <a class="w3-bar-item w3-button" href='/colors/default.asp'>HTML Color Reference</a>
-   <a class="w3-bar-item w3-button" href='/tags/ref_attributes.asp'>HTML Attribute Reference</a>
-   <a class="w3-bar-item w3-button" href='/tags/ref_canvas.asp'>HTML Canvas Reference</a>
-   <a class="w3-bar-item w3-button" href='/graphics/svg_reference.asp'>HTML SVG Reference</a>
-   <a class="w3-bar-item w3-button" href='/graphics/google_maps_reference.asp'>Google Maps Reference</a>
-   <h3 class="w3-margin-top">CSS</h3>
-   <a class="w3-bar-item w3-button" href='/cssref/default.asp'>CSS Reference</a>
-   <a class="w3-bar-item w3-button" href='/cssref/css3_browsersupport.asp'>CSS Browser Support</a>
-   <a class="w3-bar-item w3-button" href='/cssref/css_selectors.asp'>CSS Selector Reference</a>
-   <a class="w3-bar-item w3-button" href='/w3css/w3css_references.asp'>W3.CSS Reference</a>
-   <a class="w3-bar-item w3-button" href='/bootstrap/bootstrap_ref_all_classes.asp'>Bootstrap Reference</a>
-   <a class="w3-bar-item w3-button" href='/icons/icons_reference.asp'>Icon Reference</a>
-   <h3 class="w3-margin-top">Server Side</h3>
-   <a class="w3-bar-item w3-button" href='/php/php_ref_array.asp'>PHP Reference</a>
-   <a class="w3-bar-item w3-button" href='/sql/sql_quickref.asp'>SQL Reference</a>
-   <a class="w3-bar-item w3-button" href='/asp/asp_ref_response.asp'>ASP Reference</a>
-  </div>
-  <div class="w3-col m6">
-   <h3 class="w3-margin-top">JavaScript</h3>
-   <a class="w3-bar-item w3-button" href='/jsref/default.asp'>JavaScript Reference</a>
-   <a class="w3-bar-item w3-button" href='/jsref/default.asp'>HTML DOM Reference</a>
-   <a class="w3-bar-item w3-button" href='/jquery/jquery_ref_selectors.asp'>jQuery Reference</a>
-   <a class="w3-bar-item w3-button" href='/angular/angular_ref_directives.asp'>AngularJS Reference</a>
-   <h3 class="w3-margin-top">XML</h3>
-   <a class="w3-bar-item w3-button" href='/xml/dom_nodetype.asp'>XML DOM Reference</a>
-   <a class="w3-bar-item w3-button" href='/xml/dom_http.asp'>XML Http Reference</a>
-   <a class="w3-bar-item w3-button" href='/xml/xsl_elementref.asp'>XSLT Reference</a>
-   <a class="w3-bar-item w3-button" href='/xml/schema_elements_ref.asp'>XML Schema Reference</a>
-   <h3 class="w3-margin-top">Character Sets</h3>
-   <a class="w3-bar-item w3-button" href='/charsets/default.asp'>HTML Character Sets</a>
-   <a class="w3-bar-item w3-button" href='/charsets/ref_html_ascii.asp'>HTML ASCII</a>
-   <a class="w3-bar-item w3-button" href='/charsets/ref_html_ansi.asp'>HTML ANSI</a>
-   <a class="w3-bar-item w3-button" href='/charsets/ref_html_ansi.asp'>HTML Windows-1252</a>
-   <a class="w3-bar-item w3-button" href='/charsets/ref_html_8859.asp'>HTML ISO-8859-1</a>
-   <a class="w3-bar-item w3-button" href='/charsets/ref_html_symbols.asp'>HTML Symbols</a>
-   <a class="w3-bar-item w3-button" href='/charsets/ref_html_utf8.asp'>HTML UTF-8</a>
-  </div>
- </div>
- <br class="hidesm">
-</nav>
+      for (i = 0; i < urlVariables.length; i++) {
+          currentParam = urlVariables[i].split('=');
 
-<nav id="nav_examples" class="w3-light-grey w3-card-2 w3-hide-small navex">
- <span onclick="w3_close_nav('examples')" class="w3-button w3-xlarge w3-display-topright barex">&times;</span><br>
- <div class="w3-row-padding w3-bar-block">
-  <div class="w3-col l3 m6">
-   <h3 class="w3-margin-top">HTML and CSS</h3>
-   <a class="w3-bar-item w3-button" href='/html/html_examples.asp'>HTML Examples</a>
-   <a class="w3-bar-item w3-button" href='/css/css_examples.asp'>CSS Examples</a>
-   <a class="w3-bar-item w3-button" href='/w3css/w3css_examples.asp'>W3.CSS Examples</a>
-   <a class="w3-bar-item w3-button" href='/w3css/w3css_templates.asp'>W3.CSS Templates</a>
-   <a class="w3-bar-item w3-button" href='/bootstrap/bootstrap_examples.asp'>Bootstrap Examples</a>
-   <a class="w3-bar-item w3-button" href='/howto/default.asp'>How To Examples</a>
-  </div>
-  <div class="w3-col l3 m6">
-   <h3 class="w3-margin-top">JavaScript</h3>
-   <a class="w3-bar-item w3-button" href="/js/js_examples.asp" target="_top">JavaScript Examples</a>
-   <a class="w3-bar-item w3-button" href="/js/js_dom_examples.asp" target="_top">HTML DOM Examples</a>
-   <a class="w3-bar-item w3-button" href="/jquery/jquery_examples.asp" target="_top">jQuery Examples</a>
-   <a class="w3-bar-item w3-button" href="/angular/angular_examples.asp" target="_top">AngularJS Examples</a>
-   <a class="w3-bar-item w3-button" href="/js/js_ajax_examples.asp" target="_top">AJAX Examples</a>
-  </div>
-  <div class="w3-col l3 m6">
-   <h3 class="w3-margin-top">XML</h3>
-   <a class="w3-bar-item w3-button" href="/xml/xml_examples.asp" target="_top">XML Examples</a>
-   <a class="w3-bar-item w3-button" href="/xml/xsl_examples.asp" target="_top">XSLT Examples</a>
-   <a class="w3-bar-item w3-button" href="/xml/xpath_examples.asp" target="_top">XPath Examples</a>
-   <a class="w3-bar-item w3-button" href="/xml/schema_example.asp" target="_top">XML Schema Examples</a>
-   <a class="w3-bar-item w3-button" href="/xml/ajax_examples.asp" target="_top">AJAX Examples</a>
-   <a class="w3-bar-item w3-button" href="/graphics/svg_examples.asp" target="_top">SVG Examples</a>
-   <h3 class="w3-margin-top">Server Side</h3>
-   <a class="w3-bar-item w3-button" href="/php/php_examples.asp" target="_top">PHP Examples</a>
-   <a class="w3-bar-item w3-button" href="/asp/asp_examples.asp" target="_top">ASP Examples</a>
-  </div>
-  <div class="w3-col l3 m6">
-   <h3 class="w3-margin-top">Quizzes</h3>
-   <a class="w3-bar-item w3-button" href="/quiztest/quiztest.asp?Qtest=HTML" target="_top">HTML Quiz</a>
-   <a class="w3-bar-item w3-button" href="/quiztest/quiztest.asp?Qtest=CSS" target="_top">CSS Quiz</a>
-   <a class="w3-bar-item w3-button" href="/quiztest/quiztest.asp?Qtest=JavaScript" target="_top">JavaScript Quiz</a>
-   <a class="w3-bar-item w3-button" href="/quiztest/quiztest.asp?Qtest=Bootstrap" target="_top">Bootstrap Quiz</a>
-   <a class="w3-bar-item w3-button" href="/quiztest/quiztest.asp?Qtest=jQuery" target="_top">jQuery Quiz</a>
-   <a class="w3-bar-item w3-button" href="/quiztest/quiztest.asp?Qtest=PHP" target="_top">PHP Quiz</a>
-   <a class="w3-bar-item w3-button" href="/quiztest/quiztest.asp?Qtest=SQL" target="_top">SQL Quiz</a>
-   <a class="w3-bar-item w3-button" href="/quiztest/quiztest.asp?Qtest=XML" target="_top">XML Quiz</a>
-  </div>
-</div>
- <br class="hidesm">
-</nav>
+          if (currentParam[0] === paramName) {
+              return currentParam[1] === undefined ? "" : currentParam[1];
+          }
+      }
 
-<!-- MAIN -->
-<div class="w3-main">
+      return "";
+    };
 
-<div class="w3-row w3-margin-bottom">
- <div class="w3-col l6 w3-center" style="padding:3%">
-  <h1>HTML</h1>
-  <p class="w3-xlarge w3-text-dark-grey">The language for building web pages</p>
-  <a href="/html/default.asp" class="w3-button w3-dark-grey">LEARN HTML</a>
-  <a href="/tags/default.asp" class="w3-button w3-dark-grey">HTML REFERENCE</a>
- </div>
- <div class="w3-col l6" style="padding:3%">
-  <div class="w3-hide-small w3-light-grey w3-card-2" style="padding:16px;">
-   <h3>HTML Example:</h3>
-   <div class="w3-code htmlHigh notranslate w3-border-green">
-&lt;!DOCTYPE html&gt;<br>
-&lt;html&gt;<br>
-&lt;title&gt;HTML Tutorial&lt;/title&gt;<br>
-&lt;body&gt;<br><br>
-&lt;h1&gt;This is a heading&lt;/h1&gt;<br>
-&lt;p&gt;This is a paragraph.&lt;/p&gt;<br><br>
-&lt;/body&gt;<br>
-&lt;/html&gt;
-   </div>
-   <a href="/html/tryit.asp?filename=tryhtml_default" target="_blank" class="w3-button w3-theme w3-hover-green w3-hover-shadow">Try it Yourself &raquo;</a>
-  </div>
- </div>
-</div>
+    var getEUCookieCountryList = function() {
+      return EUCookieCountryList;
+    };
 
-<div class="w3-row w3-light-grey w3-hide-medium w3-hide-small">
- <div class="w3-col l6" style="padding-top:40px;padding:3%;">
-  <h3>CSS Example:</h3>
-  <div class="w3-code cssHigh notranslate w3-card-2 w3-border-green">
-body {<br>
-&nbsp;&nbsp;&nbsp; background-color: lightblue;<br>}<br>
-h1 {<br>
-&nbsp;&nbsp;&nbsp; color: white;<br>
-&nbsp;&nbsp;&nbsp; text-align: center;<br>}<br>
-p {<br>
-&nbsp;&nbsp;&nbsp; font-family: verdana;<br>
-&nbsp;&nbsp;&nbsp; font-size: 20px;<br>}
-  </div>
-  <a href="/css/tryit.asp?filename=trycss_default" target="_blank" class="w3-button w3-theme w3-hover-green w3-hover-shadow">Try it Yourself &raquo;</a>
- </div>
- <div class="w3-col l6 w3-center" style="padding:3%">
-  <h1>CSS</h1>
-  <p class="w3-xlarge">The language for styling web pages</p>
-  <a href="/css/default.asp" class="w3-button w3-dark-grey">LEARN CSS</a>
-  <a href="/cssref/default.asp" class="w3-button w3-dark-grey">CSS REFERENCE</a>
- </div>
-</div>
+    var checkUserLocInEU = function(userLoc) {
+      var userInEU = EUCookieCountryList.indexOf(userLoc) > -1 ? true : false;
+      return userInEU;
+    };
 
-<div class="w3-row w3-light-grey w3-hide-large" style="padding-bottom:30px">
- <div class="w3-col l6 w3-center" style="padding:3%">
-  <h1>CSS</h1>
-  <p class="w3-xlarge">The language for styling web pages</p>
-  <a href="/css/default.asp" class="w3-button w3-dark-grey">LEARN CSS</a>
-  <a href="/cssref/default.asp" class="w3-button w3-dark-grey">CSS REFERENCE</a>
- </div>
- <div class="w3-col l6 w3-hide-small" style="padding-top:40px;padding:3%;">
-  <h3>CSS Example:</h3>
-  <div class="w3-code cssHigh notranslate w3-card-2 w3-border-green">
-body {<br>
-&nbsp;&nbsp;&nbsp; background-color: lightblue;<br>}<br>
-h1 {<br>
-&nbsp;&nbsp;&nbsp; color: white;<br>
-&nbsp;&nbsp;&nbsp; text-align: center;<br>}<br>
-p {<br>
-&nbsp;&nbsp;&nbsp; font-family: verdana;<br>
-&nbsp;&nbsp;&nbsp; font-size: 20px;<br>}
-  </div>
-  <a href="/css/tryit.asp?filename=trycss_default" target="_blank" class="w3-button w3-theme w3-hover-green w3-hover-shadow">Try it Yourself &raquo;</a>
- </div>
-</div>
+    var setupLocalStorageIfEmpty = function() {
+      /*
+        When Safari (OS X or iOS) is in private browsing mode, it appears as though localStorage is available, but trying to call setItem throws an exception.
+        "QUOTA_EXCEEDED_ERR: DOM Exception 22: An attempt was made to add something to storage that exceeded the quota."
+        This workaround is needed and should not be removed.
+      */
+      if (typeof localStorage !== 'object') {
+        Storage.prototype._setItem = Storage.prototype.setItem;
+        Storage.prototype.setItem = function() {};
+      }
+    };
 
-<div class="w3-row">
- <div class="w3-col l6 w3-center" style="padding:3%">
-  <h1 class="w3-jumbo">JavaScript</h1>
-  <p class="w3-xlarge w3-text-dark-grey">The language for programming web pages</p>
-  <a href="/js/default.asp" class="w3-button w3-dark-grey">LEARN JAVASCRIPT</a>
-  <a href="/jsref/default.asp" class="w3-button w3-dark-grey">JAVASCRIPT REFERENCE</a>
- </div>
- <div class="w3-col l6" style="padding:3%">
-  <div class="w3-hide-small w3-card-2 w3-light-grey" style="padding:16px;">
-   <h3>JavaScript Example:</h3>
-   <div class="w3-code notranslate w3-card-2 w3-border-green">
-   <div class="htmlHigh">
-&lt;script&gt;
-   </div>
-   <div class="jsHigh">
-function myFunction() {<br>
-&nbsp;&nbsp;&nbsp; var x = document.getElementById(&quot;demo&quot;);<br>
-&nbsp;&nbsp;&nbsp; x.style.fontSize = &quot;25px&quot;; <br>
-&nbsp;&nbsp;&nbsp; x.style.color = &quot;red&quot;; <br>}<br>
-    </div>
-    <div class="htmlHigh">
-&lt;/script&gt;<br><br>
-&lt;button onclick=&quot;myFunction()&quot;&gt;Click Me!&lt;/button&gt;
-    </div>
-   </div>
-   <a href="/js/tryit.asp?filename=tryjs_default" target="_blank" class="w3-button w3-theme w3-hover-green w3-hover-shadow">Try it Yourself &raquo;</a>
-  </div>
- </div>
-</div>
+    var markUserUTMReferrerSubmitted = function() {
+      setupLocalStorageIfEmpty();
+      localStorage.setItem('cfmrk_user_utm_referrer_submitted', 1);
+    };
 
-<div class="w3-row w3-light-grey w3-padding-16">
- <div class="w3-col l4 w3-center" style="padding:3%;">
-  <div class="w3-card-2 w3-white">
-   <h2 class="w3-xxlarge">SQL</h2>
-   <h4 class="w3-text-dark-grey">A language for accessing databases</h4>
-   <a href="/sql/default.asp" class="w3-button w3-dark-grey">LEARN SQL</a>
-  </div>
- </div>
- <div class="w3-col l4 w3-center" style="padding:3%;">
-  <div class="w3-card-2 w3-white">
-   <h2 class="w3-xxlarge">PHP</h2>
-   <h4 class="w3-text-dark-grey">A web server programming language</h4>
-   <a href="/php/default.asp" class="w3-button w3-dark-grey">LEARN PHP</a>
-  </div>
- </div>
- <div class="w3-col l4 w3-center" style="padding:3%;">
-  <div class="w3-card-2 w3-white">
-   <h2 class="w3-xxlarge">jQuery</h2>
-   <h4 class="w3-text-dark-grey">A JavaScript library for developing web pages</h4>
-   <a href="/jquery/default.asp" class="w3-button w3-dark-grey">LEARN JQUERY</a>
-  </div>
- </div>
-</div>
-<div class="w3-row">
- <div class="w3-col l4 w3-center" style="padding:3%;">
-  <h2 class="w3-xxlarge">W3.CSS</h2>
-  <h4 class="w3-text-dark-grey">A modern CSS framework for faster and better responsive web sites</h4>
-  <a href="/w3css/default.asp" class="w3-button w3-dark-grey">LEARN W3.CSS</a>
- </div>
- <div class="w3-col l4 w3-center" style="padding:3%;">
-  <h2 class="w3-xxlarge">Color Picker</h2>
-  <a href="/colors/colors_picker.asp" class="w3-hover-opacity"><img style="width:150px;height:128px;margin-top:16px;" src="/images/colorpicker.png" alt="Colorpicker"></a>
- </div>
- <div class="w3-col l4 w3-center" style="padding:3%;">
-  <h2 class="w3-xxlarge">Bootstrap</h2>
-  <h4 class="w3-text-dark-grey">Bootstrap is a CSS framework for designing better web pages</h4>
-  <a href="/bootstrap/default.asp" class="w3-button w3-dark-grey">LEARN BOOTSTRAP</a>
- </div>
-</div>
-<br>
+    var UTMReferrerSubmitted = function(){
+      var utmReffererSubmitted = localStorage.getItem('cfmrk_user_utm_referrer_submitted');
+      return !!utmReffererSubmitted;
+    };
 
-<div class="w3-light-grey w3-center w3-padding-large w3-padding-32">
-  <h2 class="w3-xxlarge">Web Templates</h2>
-  <h4 class="w3-text-dark-grey">Browse our selection of <strong>free</strong> responsive HTML Templates</h4>
-  <div class="w3-content">
-    <a href="/w3css/w3css_templates.asp"><img src="w3css_templates.jpg" style="width:100%;margin:16px 0 20px 0" alt="W3.CSS Templates"></a>
-  </div>
-  <p><a href="/w3css/w3css_templates.asp" class="w3-button w3-dark-grey w3-padding-large">BROWSE TEMPLATES</a></p>
-</div>
-<br>
+    var UTMReferrerSaved = function() {
+      var utmReffererSaved = localStorage.getItem('cfmrk_user_utm_referrer_value');
+      return !!utmReffererSaved;
+    };
 
-<div class="w3-white w3-center w3-padding-large w3-padding-16" style="padding-bottom:36px!important">
-  <h2 class="w3-xxlarge">How To Section</h2>
-  <h4 class="w3-text-dark-grey">Code snippets for HTML, CSS and JavaScript</h4>
-  <div class="w3-content w3-hide-device">
-    <div class="w3-row-padding" style="margin:32px -16px">
-      <div class="w3-col l6 s12">
-        <iframe src="/howto/tryhow_css_sidenav_ifr.htm" style="width:100%;border:5px solid #ddd;height:300px"></iframe>
+    // Reset fixed scroll menus when accordion alters DOM height.
+    var resetStickyNavPositions = function() {
+      if ($.fn.scrollNav) {
+        setTimeout(function() {
+          $.fn.scrollNav('_setup_pos');
+        }, 800);
+      }
+    };
+
+    var setGAUTMReferrer = function(utm_referrer) {
+      if (utm_referrer) {
+        if (ga) {
+          console.log('%cSetting referrer in GA: ' + utm_referrer, 'color: #f69259; font-weight: bold;');
+          ga('set', 'referrer', utm_referrer);
+          window.CFJS.Tools.markUserUTMReferrerSubmitted();
+        } else {
+          console.error('UTM referrer: ' + utm_referrer + ' not set. GA unavailable.')
+        }
+      }
+    };
+
+    var saveUTMReferrerLS = function() {
+      if (document.referrer) {
+        setupLocalStorageIfEmpty();
+        localStorage.setItem('cfmrk_user_utm_referrer_value', document.referrer);
+      }
+    };
+
+    var checkAndSetUTMReferrer = function() {
+      var utmReferrerSavedLocalStorage = localStorage.getItem('cfmrk_user_utm_referrer_value');
+
+      if (utmReferrerSavedLocalStorage && !window.CFJS.Tools.UTMReferrerSubmitted()) {
+        window.CFJS.Tools.setGAUTMReferrer(utmReferrerSavedLocalStorage);
+      } else {
+        if (!window.CFJS.Tools.UTMReferrerSubmitted() && !window.CFJS.Tools.UTMReferrerSaved()) {
+        // Check if document.referrer exists
+          // Also check to see if the page URL doesnt contain utm_referrer to avoid duplicate query params
+          var UTMreferrerExistsInURL = (window.location.href).indexOf('utm_referrer') !== -1;
+
+          if (UTMreferrerExistsInURL) {
+            var utm_referrer = window.CFJS.Tools.getUrlParameter('utm_referrer');
+            window.CFJS.Tools.setGAUTMReferrer(utm_referrer);
+          }
+        }
+      }
+    };
+
+    return {
+      getCookieValue: getCookieValue,
+      getUrlParameter: getUrlParameter,
+      getEUCookieCountryList: getEUCookieCountryList,
+      checkUserLocInEU: checkUserLocInEU,
+      resetStickyNavPositions: resetStickyNavPositions,
+      setupLocalStorageIfEmpty: setupLocalStorageIfEmpty,
+      markUserUTMReferrerSubmitted: markUserUTMReferrerSubmitted,
+      UTMReferrerSubmitted: UTMReferrerSubmitted,
+      UTMReferrerSaved: UTMReferrerSaved,
+      checkAndSetUTMReferrer: checkAndSetUTMReferrer,
+      setGAUTMReferrer: setGAUTMReferrer,
+      saveUTMReferrerLS: saveUTMReferrerLS
+    };
+   })();
+</script><script>
+  window.CFJS = window.CFJS || {};
+
+  CFJS.CookieHelpers = (function(){
+    var EUCookieCountryList = ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'GB', 'CH', 'LI', 'IS', 'NO'];
+    var userCookiesAllowed;
+
+    var _resolveUserLoc = function() {
+      return new Promise(function(resolve, reject) {
+        CFJS.Helpers.traceData().then(function() {
+          var userLoc = traceDataObj['loc'];
+
+          if (window.location.href.indexOf("/lp/") > -1 && window.location.href.indexOf("/ddos-b/") === -1) {
+            // If the page URL contains /lp/ then allow cookies
+            // This is done to allow Google Adwords tracking to function as normal
+            userCookiesAllowed = true;
+            resolve();
+          } else if (EUCookieCountryList.indexOf(userLoc) > -1) {
+            // Does userLoc exist within the EUCookieCountryList array
+            // i.e. Is the user located in the EU?
+            userCookiesAllowed = false;
+            resolve();
+          } else {
+            userCookiesAllowed = true;
+            resolve();
+          }
+        });
+      });
+    };
+
+    var userLocatedInEU = function(){
+      return new Promise(function(resolve, reject) {
+        _resolveUserLoc().then(function(){
+          var userLoc = traceDataObj['loc'];
+          var userInEU = EUCookieCountryList.indexOf(userLoc) > -1 ? true : false;
+          resolve(userInEU)
+        });
+      });
+    };
+
+    var shouldLoadUserCookies = function(){
+      /*
+        Check if user has accepted cookies
+        These must return within traceData to ensure traceDataObj is populated for the parent calling functions
+      */
+      var cookieName = 'cfmrk_eucookiebanner';
+      var cookieExists = getCookieValue(cookieName);
+
+      if (cookieExists) {
+        userCookiesAllowed = true;
+
+        return new Promise(function(resolve, reject) {
+          CFJS.Helpers.traceData().then(function() {
+            resolve(userCookiesAllowed);
+          });
+        });
+      } else if (userCookiesAllowed !== undefined) {
+        return new Promise(function(resolve, reject) {
+          CFJS.Helpers.traceData().then(function() {
+            resolve(userCookiesAllowed);
+          });
+        });
+      } else {
+        return new Promise(function(resolve, reject) {
+          // Initial case where userCookiesAllowed is not populated yet
+          _resolveUserLoc().then(function(){
+            resolve(userCookiesAllowed);
+          });
+        });
+      }
+    }
+
+    return {
+      shouldLoadUserCookies: shouldLoadUserCookies,
+      userLocatedInEU: userLocatedInEU
+    }
+  })();
+</script>
+<script>
+  function getCookieValue(name) {
+    var cookieRegex = new RegExp(name + "=([^;]+)");
+    var value = cookieRegex.exec(document.cookie);
+    return (value != null) ? unescape(value[1]) : null;
+  }
+
+  function setCookieTrue(cookieName, daysToExpire) {
+    // Sets a boolean cookie to expire never with the given cookie name with the value of 1
+    if (daysToExpire) {
+      var ms1Day = 24 * 60 * 60 * 1000;
+      date = new Date();
+      date.setTime(date.getTime()+(daysToExpire*ms1Day));
+      expireDate = date.toGMTString();
+    } else {
+      expireDate = "";
+    }
+
+    document.cookie = "cfmrk_" + cookieName + "=1;expires=" + expireDate + ";path=/";
+  };
+
+  var userLoggedIn = getCookieValue("__cf_effload") ? 1 : 0;
+
+  CFJS.CookieHelpers.shouldLoadUserCookies().then(function(userCookiesAllowed){
+    if (userCookiesAllowed) {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      // Pass RUM data into GA
+        ga('set', 'dimension5', traceDataObj['colo']);
+        ga('set', 'dimension6', traceDataObj['loc']);
+        ga('set', 'dimension7', CFJS.Helpers.isIPv6());
+        ga('set', 'dimension8', traceDataObj['spdy']);
+        ga('set', 'dimension9', traceDataObj['visit_scheme']);
+        ga('set', 'dimension10', traceDataObj['fl']);
+        ga('marketingTracker.set', 'dimension5', traceDataObj['colo']);
+        ga('marketingTracker.set', 'dimension6', traceDataObj['loc']);
+        ga('marketingTracker.set', 'dimension7', CFJS.Helpers.isIPv6());
+        ga('marketingTracker.set', 'dimension8', traceDataObj['spdy']);
+        ga('marketingTracker.set', 'dimension9', traceDataObj['visit_scheme']);
+        ga('marketingTracker.set', 'dimension10', traceDataObj['fl']);
+
+        // Safari, in Private Browsing Mode, looks like it supports localStorage but all calls to setItem
+        // throw QuotaExceededError. We're going to detect this and just silently drop any calls to setItem
+        // to avoid the entire page breaking, without having to do a check at each usage of Storage.
+        if (typeof localStorage === 'object') {
+          try {
+            // Used for Dashboard enterprise form
+            localStorage.setItem('cfmrk_user_country_code', traceDataObj['loc']);
+          } catch (e) {
+            Storage.prototype._setItem = Storage.prototype.setItem;
+            Storage.prototype.setItem = function() {};
+          }
+        }
+
+      ga('create', "UA-10218544-2", 'www.cloudflare.com');
+      ga('set', 'dimension4', userLoggedIn);
+
+      ga('create',  "UA-10218544-16", 'www.cloudflare.com', 'marketingTracker');
+      ga('marketingTracker.set', 'dimension4', userLoggedIn);
+
+      CFJS.Tools.checkAndSetUTMReferrer();
+
+      // Enable Google Optimize
+      ga('marketingTracker.require', 'GTM-N4JSZJ8');
+
+      // Optimizely Universal Analytics Integration
+      window.optimizely = window.optimizely || [];
+      window.optimizely.push("activateUniversalAnalytics");
+
+      ga('send', 'pageview');
+      ga('marketingTracker.send', 'pageview');
+    }
+  });
+</script>
+
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W3LKCG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script>
+CFJS.CookieHelpers.shouldLoadUserCookies().then(function(userCookiesAllowed){
+  if (userCookiesAllowed) {
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W3LKCG');
+  }
+});
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "cloudflare.com",
+    "url": "http://www.cloudflare.com",
+    "sameAs": [
+      "http://www.facebook.com/Cloudflare",
+      "http://www.twitter.com/Cloudflare",
+      "http://plus.google.com/+cloudflare",
+      "https://www.linkedin.com/company/cloudflare-inc-",
+      "http://www.youtube.com/user/CloudflareTeam"
+    ]
+  }
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Corporation",
+    "name": "Cloudflare",
+    "url": "http://www.cloudflare.com",
+    "description": "Cloudflare is a free global CDN and DNS provider that can speed up and protect any site online."
+  }
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raven.js/3.19.1/raven.min.js" crossorigin="anonymous"></script>
+
+<script>
+  Raven.config('https://631a10aa6e804240af9798c69cd0fd6a@sentry.io/229513', {
+    ignoreErrors: [
+        'Unexpected token ILLEGAL',
+        'MacPlayer is not defined'
+    ],
+    ignoreUrls: [
+      '/signals/config/',
+      'https://www.cloudflare.com/5xx-error-landing/'
+    ]
+  }).install();
+</script>
+  </head>
+  <body class="marketing-nojs ">
+  <header style="display:none" class="top-nav top-nav--mini-banner ab-banner-1">
+    <section class="tile tile--mini-banner hide-mobile">
+      <div class="tile__content--1200px">
+        <div class="grid--center grid--vertical-center">
+          <img alt="Cloudflare Apps" src="/img/homepage/new-badge.svg" style="margin-right:8px;height:20px;">
+          <h4 class="text--white text--gt-after">Cloudflare Apps: built by world-class developers, delivered by Cloudflare, easily installed | <a class="text--white text--white-underline" style="font-weight:500;" href="/apps?utm_campaign=Apps_Launch&utm_medium=banner&utm_source=homepage" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="apps_mini_banner">Preview on your site now</a></h4>
+        </div>
+        <div class="close_x js-accept-top-nav-mini-banner"></div>
       </div>
-      <div class="w3-col l6 w3-hide-small w3-hide-medium">
-        <iframe src="/howto/tryhow_css_sidenav_ifr2.htm" style="width:100%;border:5px solid #ddd;height:300px"></iframe>
+    </section>
+  </header>
+<header class="top-nav top-nav--new js-top-nav top-nav--transparent">
+
+<nav  class="top-nav__upper-bar top-nav__items">
+  <div class="top-nav__item-list top-nav__item-list--right">
+    <a href="tel:18889935273">Contact Sales: +1-(888)-993-5273</a>
+    <a class="header-language-picker js-header-language-picker"><span class="header-language-picker__globe-icon"></span>English <span class="header-language-picker__caret-icon">▶</span><span class="header-language-picker__caret-icon hidden-element">▼</span></a>
+
+    <div id="js-header-language-picker-dropdown" class="js-header-language-picker-dropdown" style="display: none;">
+      <ul class="marketing-ul marketing-ul--no-bullets marketing-ul--no-margins-li header-language-picker-dropdown">
+
+            <li  class="header-language-picker-dropdown__active" >
+              <a href="https://www.cloudflare.com" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="en">English</a>
+            </li>
+            <li >
+              <a
+                href="https://www.cloudflare.com/es/"
+                  data-tracking-category="topnav"
+                  data-tracking-action="click"
+                  data-tracking-label="es"
+                >Español</a>
+            </li>
+            <li >
+              <a
+                href="https://www.cloudflare.com/fr/"
+                  data-tracking-category="topnav"
+                  data-tracking-action="click"
+                  data-tracking-label="fr"
+                >Français</a>
+            </li>
+            <li >
+              <a
+                href="https://www.cloudflare.com/de/"
+                  data-tracking-category="topnav"
+                  data-tracking-action="click"
+                  data-tracking-label="de"
+                >Deutsch</a>
+            </li>
+            <li >
+              <a
+                href="https://www.cloudflare.com/br/"
+                  data-tracking-category="topnav"
+                  data-tracking-action="click"
+                  data-tracking-label="br"
+                >Português</a>
+            </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <nav class="top-nav__items">
+    <a href="/">
+      <img style="display: none;" class="top-nav__logo top-nav__logo--dark top-nav__logo--transparent" src="/img/logo-cloudflare-dark.svg">
+      <img class="top-nav__logo top-nav__logo--light top-nav__logo--transparent" src="/img/logo-cloudflare.svg">
+    </a>
+
+    
+    <ul style="padding-left: 0px" class="top-nav__item-list top-nav__item-list--left">
+      <li class="top-nav__item-list__link top-nav__items__desktop nojs-hide" data-submenu="products">Products</li>
+      <li class="top-nav__item-list__link top-nav__items__desktop nojs-hide" data-submenu="learn">Solutions</li>
+      <li class="top-nav__item-list__link top-nav__items__desktop nojs-hide" data-submenu="apps">Resources</li>
+      <li class="top-nav__item-list__link top-nav__item-list__link--expand top-nav__items__desktop"><a href="/plans/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="plans">Pricing</a></li>
+    </ul>
+
+    <ul class="top-nav__item-list top-nav__item-list--right">
+      <li class="top-nav__item-list__link top-nav__items__desktop nojs-hide" data-submenu="navsearch">
+        <div class="top-nav-magnifier"></div>
+      </li>
+      <li class="top-nav__item-list__link top-nav__items__desktop"><a href="https://support.cloudflare.com/">Support</a></li>
+      <li class="top-nav__item-list__link top-nav__items__desktop"><a href="/a/login" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="login">Log In</a></li>
+      <li class="top-nav__item-list__link top-nav__items__desktop"><a href="/a/signup" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="signup">Sign up</a></li>
+      <li class="top-nav__item-list__link top-nav__items__desktop top-nav__item-list__link--no-ul"><a class="button button--new-orange" href="/under-attack-hotline/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="under_attack">Under Attack?</a></li>
+    </ul>
+
+    <button class="js-mobilenav-toggle toggle">
+      <span class="icon"></span>
+    </button>
+  </nav>
+
+<div class="desktop-nav">
+  <div class="desktop-nav__products desktop-nav__container">
+    <span class="grid">
+      <div class="grid__item grid__item--three-fourths grid__item--no-v-padding nopad">
+        <span class="grid">
+          <ul class="grid__item grid__item--third grid__item--no-v-padding">
+            <li class="desktop-nav__sub-menu__list__item">Performance</li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/cdn/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="cdn">CDN</a></li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/network/china/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_cloudflare_china">China Network</a></li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/dns/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="performant_dns">DNS</a></li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/load-balancing/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="load_balancing">Load Balancing</a></li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/argo/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="argo_smart_routing">Argo Smart Routing</a></li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/website-optimization/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="web-optimization">Web Optimizations</a></li>
+            <li class="desktop-nav__sub-menu__list__item desktop-nav__sub-menu__list__bottom">
+              <a href="/performance/" class="button--gt-after" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="performance_view_all">View all</a>
+            </li>
+          </ul>
+          <ul class="grid__item grid__item--third grid__item--no-v-padding">
+            <li class="desktop-nav__sub-menu__list__item">Security</li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/ddos/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="ddos">DDoS Protection</a></li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/rate-limiting/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="rate_limiting">Rate Limiting</a></li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/waf/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="waf">WAF</a></li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/ssl/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="ssl">SSL / TLS</a></li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/dns/dnssec/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="dnssec">DNSSEC</a></li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/registrar/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="secure_registrar">Secure Registrar</a></li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/products/cloudflare-access/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="access">Access</a></li>
+            <li class="desktop-nav__sub-menu__list__item desktop-nav__sub-menu__list__bottom">
+              <a href="/security/" class="button--gt-after" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="security_view_all">View all</a>
+            </li>
+          </ul>
+          <ul class="grid__item grid__item--third grid__item--no-v-padding">
+            <li class="desktop-nav__sub-menu__list__item">Apps</li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/apps/list/make-money-on-your-site" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="apps_make_money">Make money on your site</a></li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/apps/list/grow-your-email-list" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="apps_grow_email_list">Grow your email list</a></li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/apps/list/get-more-customers" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="apps_get_customers">Get more customers</a></li>
+            <li class="desktop-nav__sub-menu__list__item"><a href="/fund/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="apps_fund">Cloudflare Developer Fund</a></li>
+            <li class="desktop-nav__sub-menu__list__item desktop-nav__sub-menu__list__bottom">
+              <a href="/apps/" class="button--gt-after" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="apps_view_all">View All</a>
+            </li>
+          </ul>
+        </span>
+      </div>
+    </span>
+  </div>
+  <div class="desktop-nav__learn desktop-nav__container">
+   <span class="grid">
+     <div class="grid__item grid__item--three-fourths grid__item--no-v-padding nopad">
+       <span class="grid">
+         <ul class="grid__item grid__item--third">
+           <li class="desktop-nav__sub-menu__list__item">Industries</li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/saas/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="industries_saas">SaaS</a></li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/website-optimization/ampersand/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="industries_publishers">Publishers</a></li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/public-sector/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="industries_publicsector">Public Sector</a></li>
+         </ul>
+         <ul class="grid__item grid__item--third">
+           <li class="desktop-nav__sub-menu__list__item">Partnerships</li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/partners/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="partnerships">Partner Program</a></li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/partners/hosting-provider/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="partnerships_hosting_provider">Hosting Provider</a></li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/partners/var-msp-isv-itconsultant/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="partnerships_it_consultant">IT Consultant</a></li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/partners/digital-agency/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="partnerships_digital_agency">Digital Agency</a></li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/partners/ecommerce-saas-platform/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="partnerships_saas_platform">eCommerce / SaaS</a></li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/partners/cloud-computing-platform/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="partnerships_cloud_computing">Cloud Computing</a></li>
+         </ul>
+         <ul class="grid__item grid__item--third">
+           <li class="desktop-nav__sub-menu__list__item">Integrations</li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/integrations/wordpress/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="integrations_wordpress">Wordpress</a></li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/integrations/google-cloud/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="integrations_google_cloud">Google Cloud</a></li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/integrations/magento/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="integrations_magento">Magento</a></li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/integrations/acquia/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="integrations_acquia">Acquia</a></li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/integrations/rackspace-ddos-protection/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="integrations_rackspace">Rackspace</a></li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/integrations/microsoft-azure/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="integrations_azure">Microsoft Azure</a></li>
+           <li class="desktop-nav__sub-menu__list__item"><a href="/integrations/kubernetes/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="integrations_kubernetes">Kubernetes</a></li>
+         </ul>
+        </span>
+      </div>
+   </span>
+  </div>
+
+  <div class="desktop-nav__navsearch desktop-nav__container">
+    <span class="grid">
+       <div class="grid__item grid__item--no-bottom-margin">
+         <form class="st-search-form st-search-form--new">
+           <input class="st-search-input st-search-input-js st-autocomplete-input" placeholder="Search"/>
+           <div class="st-search st-search--no-results hidden-element">
+              <p class="text--light-red">No results found</p>
+            </div>
+         </form>
+      </div>
+    </span>
+  </div>
+
+  <div class="desktop-nav__apps desktop-nav__container">
+    <span class="grid">
+      <ul class="grid__item grid__item--fifth grid__item--no-v-padding">
+        <li class="desktop-nav__sub-menu__list__item">Develop</li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="https://api.cloudflare.com/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="developer_api_guide">API Guide</a></li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="/developers/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="developer_hub">Developer Hub</a></li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="/fund/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="developer_fund">Developer Fund</a></li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="/technical-resources/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="developer_documentation">Documentation</a></li>
+      </ul>
+      <ul class="grid__item grid__item--fifth grid__item--no-v-padding">
+        <li class="desktop-nav__sub-menu__list__item">Learn</li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="/case-studies/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_case_studies">Case Studies</a></li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="/network/china/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_cloudflare_china">Cloudflare in China</a></li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="/learning/ddos/what-is-a-ddos-attack/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_ddos_learning_center">DDoS Learning Center</a></li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="/learning/cdn/what-is-a-cdn/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_cdn_learning_center">CDN Learning Center</a></li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="/learning/dns/what-is-dns/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_dns_learning_center">DNS Learning Center</a></li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="/network/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_network_map">Network Map</a></li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="/webinars/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_webinars">Webinars</a></li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="/product-updates/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_product_updates">Product Updates</a></li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="/resources/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_white_papers">White Papers</a></li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="/gdpr/introduction/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_gdpr">GDPR</a></li>
+      </ul>
+      <ul class="grid__item grid__item--fifth grid__item--no-v-padding">
+        <li class="desktop-nav__sub-menu__list__item">Connect</li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="https://blog.cloudflare.com/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="blog">Blog</a></li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="/plans/enterprise/contact/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="contact_sales">Contact Sales</a></li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="https://community.cloudflare.com/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="community">Community</a></li>
+        <li class="desktop-nav__sub-menu__list__item"><a href="https://support.cloudflare.com" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="support">Support</a></li>
+      </ul>
+      <ul class="grid__item grid__item--two-fifths grid__item--no-v-padding">
+        <li class="desktop-nav__sub-menu__list__item">Contact</li>
+        <li class="desktop-nav__sub-menu__list__item">US Sales: <a class="tel" href="tel:18889935273" itemprop="telephone">+1 (888) 99 FLARE</a></li>
+        <li class="desktop-nav__sub-menu__list__item">UK Sales: <a class="tel" href="tel:4402035146970" itemprop="telephone">+44 (0)20 3514 6970</a></li>
+        <li class="desktop-nav__sub-menu__list__item">Singapore Sales: <a class="tel" href="tel:6531583954" itemprop="telephone">+65 3158 3954</a></li>
+        <li class="desktop-nav__sub-menu__list__item">International Sales: <a class="tel" href="tel:16503198930" itemprop="telephone">+1 (650) 319 8930</a></li>
+      </ul>
+    </span>
+  </div>
+</div>
+<div class="mobile-nav">
+  <ul class="mobile-nav__list">
+    <!--Product Menu-->
+    <li class="mobile-nav__list__item">
+      <div class="mobile-sub-nav__title" data-submenu="productsMobile">
+        <span class="mobile-sub-nav__title__text">Products</span>
+        <i class="icon-caret-down"></i>
+      </div>
+    </li>
+    <div id="productsMobile" class="mobile-sub">
+      <ul class="mobile-sub-nav">
+        <li class="mobile-sub-nav__item">
+          Performance
+          <div class="mobile-sub-nav__item__all"><a class="mobile-nav__link button--gt-after" href="/performance/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="performance_view_all">View All</a></div>
+        </li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/cdn/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="cdn">CDN</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/network/china/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="china_network">China Network</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/dns/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="dns">DNS</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/load-balancing/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="load_balancing">Load Balancing</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/argo/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="argo_smart_routing">Argo Smart Routing</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/website-optimization/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="web_optimization">Web Optimization</a></li>
+      </ul>
+      <ul class="mobile-sub-nav">
+        <li class="mobile-sub-nav__item">
+          Security
+          <div class="mobile-sub-nav__item__all"><a class="mobile-nav__link button--gt-after" href="/security/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="security_view_all">View All</a></div>
+        </li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/ddos/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="ddos">DDoS Protection</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/rate-limiting/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="rate_limiting">Rate Limiting</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/waf/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="waf">Web Application Firewall</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/ssl/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="ssl">SSL / TLS</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/dns/dnssec/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="dnssec">DNSSEC</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/saas/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="ssl_for_saas">SSL for SaaS</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/registrar/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="secure_registrar">Secure Registrar</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/products/cloudflare-access/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="access">Access</a></li>
+      </ul>
+      <ul class="mobile-sub-nav">
+        <li class="mobile-sub-nav__item">
+          Apps
+          <div class="mobile-sub-nav__item__all"><a class="mobile-nav__link button--gt-after" href="/apps/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="apps_view_all">View All</a></div>
+        </li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/apps/list/make-money-on-your-site" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="apps_make_money">Make money on your site</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/apps/list/grow-your-email-list" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="apps_grow_email_list">Grow your email list</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/apps/list/get-more-customers" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="apps_get_customers">Get more customers</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/fund/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="apps_fund">Cloudflare Developer Fund</a></li>
+      </ul>
+    </div>
+    <!--Solutions Menu-->
+    <li class="mobile-nav__list__item">
+      <div class="mobile-sub-nav__title" data-submenu="appsMobile">
+        <span class="mobile-sub-nav__title__text">Solutions</span>
+        <i class="icon-caret-down"></i>
+      </div>
+    </li>
+    <div id="appsMobile" class="mobile-sub">
+      <ul class="mobile-sub-nav">
+        <li class="mobile-sub-nav__item">
+          Industries
+        </li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/saas/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="industries_saas">SaaS</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/website-optimization/ampersand/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="industries_publishers">Publishers</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/public-sector/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="industries_publicsector">Public Sector</a></li>
+      </ul>
+      <ul class="mobile-sub-nav">
+        <li class="mobile-sub-nav__item">
+          Partnerships
+        </li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/partners/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="partnerships">Partner Program</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/partners/hosting-provider/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="partnerships_hosting_provider">Hosting Providers</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/partners/var-msp-isv-itconsultant/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="partnerships_it_consultant">IT Consultants</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/partners/digital-agency/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="partnerships_digital_agency">Digital Agency</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/partners/ecommerce-saas-platform/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="partnerships_ecommerce">eCommerce / SaaS</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/partners/cloud-computing-platform/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="partnerships_cloud_computing">Cloud Computing</a></li>
+      </ul>
+      <ul class="mobile-sub-nav">
+        <li class="mobile-sub-nav__item">
+          Integrations
+          <div class="mobile-sub-nav__item__all"><a class="mobile-nav__link button--gt-after" href="/integrations/" data-tracking-action="click" data-tracking-label="integrations_view_all">View All</a></div>
+        </li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/integrations/wordpress/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="integrations_wordpress">Wordpress</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/integrations/google-cloud/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="integrations_google_cloud">Google Cloud</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/integrations/magento/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="integrations_magento">Magento</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/integrations/acquia/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="integrations_acquia">Acquia</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/integrations/rackspace-ddos-protection/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="integrations_rackspace">Rackspace</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/integrations/microsoft-azure/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="integrations_azure">Microsoft Azure</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/integrations/kubernetes/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="integrations_kubernetes">Kubernetes</a></li>
+      </ul>
+    </div>
+    <!--Learn Menu-->
+    <li class="mobile-nav__list__item">
+      <div class="mobile-sub-nav__title" data-submenu="learningMobileArea">
+        <span class="mobile-sub-nav__title__text">Resources</span>
+        <i class="icon-caret-down"></i>
+      </div>
+    </li>
+    <div id="learningMobileArea" class="mobile-sub">
+      <ul class="mobile-sub-nav">
+        <li class="mobile-sub-nav__item">
+          Develop
+        </li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="https://api.cloudflare.com/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="developer_api_guide">API Guide</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/developers/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="developer_hub">Developer Hub</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/fund/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="developer_fund">Developer Fund</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/technical-resources/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="developer_documentation">Documentation</a></li>
+      </ul>
+      <ul class="mobile-sub-nav">
+        <li class="mobile-sub-nav__item">
+          Learn
+        </li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/case-studies/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_case_studies">Case Studies</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/network/china/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_cloudflare_china">Cloudflare in China</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/learning/ddos/what-is-a-ddos-attack/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_ddos_learning_center">DDoS Learning Center</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/learning/cdn/what-is-a-cdn/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_cdn_learning_center">CDN Learning Center</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/learning/dns/what-is-dns/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_dns_learning_center">DNS Learning Center</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/network/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_network_map">Network Map</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/webinars/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_webinars">Webinars</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/product-updates/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_product_updates">Product Updates</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/resources/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_white_papers">White Papers</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/gdpr/introduction/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="learn_gdpr">GDPR</a></li>
+      </ul>
+      <ul class="mobile-sub-nav">
+        <li class="mobile-sub-nav__item">
+          Connect
+        </li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="https://blog.cloudflare.com/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="blog">Blog</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="/plans/enterprise/contact/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="contact_sales">Contact Sales</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="https://community.cloudflare.com/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="community">Community</a></li>
+        <li class="mobile-sub-nav__item"><a class="mobile-nav__link" href="https://support.cloudflare.com" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="support">Support</a></li>
+      </ul>
+    </div>
+    <li class="mobile-nav__list__item mobile-nav__list__item--expand">
+      <a class="mobile-nav__link" href="/plans/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="plans">
+        <span class="mobile-nav__list__item__text">Pricing</span>
+      </a>
+    </li>
+    <li class="mobile-nav__list__item mobile-nav__list__item--expand" id="signupMobile">
+      <a class="mobile-nav__link" href="https://www.cloudflare.com/a/sign-up" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="signup">
+        <span class="mobile-nav__list__item__text">Sign up</span>
+      </a>
+    </li>
+    <li class="mobile-nav__list__item mobile-nav__list__item--expand" id="loginMobile">
+      <a class="mobile-nav__link" href="https://www.cloudflare.com/a/login" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="login">
+        <span class="mobile-nav__list__item__text">Log In</span>
+      </a>
+    </li>
+    <li class="mobile-nav__list__item mobile-nav__list__item--expand" id="underattackMobile">
+      <a class="mobile-nav__link" href="/under-attack-hotline/" data-tracking-category="topnav" data-tracking-action="click" data-tracking-label="under_attack">
+        <span class="mobile-nav__list__item__text">Under Attack?</span>
+      </a>
+    </li>
+  </ul>
+</div>
+</header>
+<div class="compact-nav-dropdown js-compact-nav-dropdown">
+ <ul class="marketing-list">
+   <li class="desktop-nav__sub-menu__list__item">Contact Us</li>
+   <li class="desktop-nav__sub-menu__list__item"><a href="/under-attack-hotline/">Help! I'm Under Attack!</a></li>
+   <li class="desktop-nav__sub-menu__list__item"><a href="/plans/enterprise/contact/">Email Sales</a></li>
+   <li class="desktop-nav__sub-menu__list__item"><a href="https://support.cloudflare.com/">Support</a></li>
+   <li class="desktop-nav__sub-menu__list__item"><a
+     href="tel:18889935273">1-888-993-5273</a></li>
+ </ul>
+</div>
+
+<div class="site-content site-content--homepage">
+
+
+<div id="homepage-video-modal" class="homepage-video-modal js-homepage-video-modal" style="display: none;">
+  <div class="homepage-video-modal__area js-hero__video-area">
+    <meta itemprop="name" content="DDoS Protection, WAF, CDN and more from Cloudflare" />
+    <meta itemprop="description" content="cloudflare.com is a dedicated, intelligent network offering routing, caching, website firewall, load balancing, DDoS mitigation, WAN Optimization as a service. Using one of the world’s largest and fastest networks, and always up-to-date with the latest standards and technology – Cloudflare has been designed to automatically identify threats." />
+    <meta itemprop="thumbnailURL" content="https://www.cloudflare.com/video/marketing-video/real-poster.jpg" />
+    <meta itemprop="embedURL" content="https://www.youtube.com/embed/T47T_mG7YbU" />
+    <meta itemprop="duration" content="T1M51S" />
+    <meta itemprop="uploadDate" content="2016-10-24T12:33:00-07:00" />
+    <meta itemprop="height" content="560" />
+    <meta itemprop="width" content="1000" />
+    <div id="js-intro-video" class="homepage-video-modal__video"></div>
+    <div class="homepage-video-modal__pause js-homepage-video-modal__pause"></div>
+    <div class="homepage-video-modal__close"></div>
+  </div>
+</div>
+
+
+<div class="homepage">
+  <div id="js-change-header"></div>
+
+  <section class="homepage-video js-hero__video-area">
+    <div class="homepage-video__viewport homepage-video__viewport-b js-homepage-video__viewport">
+    </div>
+    <h1 class="homepage-video__heading-c">Cloudflare makes your <span class="word-swap"><span class="js-word-swap word-swap text--22px text--line-height-42px" data-word-swap="websites|APIs|mobile applications|SaaS products|ecommerce stores"></span></span> faster & safer.</h1>
+
+    <div class="grid--center grid--vertical-center homepage-video__play-text-c js-homepage-video__play-text">
+      <img src="/img/homepage/play-small.svg" class="image-height-45px" style="margin-right:10px;width:42px;">
+      <a href="#" class="text--white text--no-pad-no-margin">Learn how Cloudflare works</a>
+    </div>
+
+    <div class="homepage-video__blade">
+      <div class="tile__content tile__content--fixed tile--large-padding-top-bottom">
+<form action="/a/sign-up" method="POST">
+  <div class="signup-form grid grid--center">
+    <div class="grid__item grid__item--fifth grid__item--no-margins grid__item--padding-10px grid__row--top">
+      <p class="signup-form__label">Get Started Today</p>
+    </div>
+    <div class="grid__item grid__item--three-fifths grid__row--top no-margin-bottom">
+      <div class="grid">
+        <div class="grid__item grid__item--half nopad no-margin-bottom">
+          <input
+            class="signup-form__input-field"
+            name="email"
+            autocomplete="off" placeholder="Email *"
+          />
+        </div>
+        <div class="grid__item grid__item--half nopad no-margin-bottom">
+          <input
+            class="signup-form__input-field signup-form__input-field--inline"
+            name="password"
+            type="password"
+            autocomplete="off" placeholder="Password *"
+          />
+        </div>
+      </div>
+      <div class="signup-form__terms signup-form__terms--no-checkbox">
+        <input class="no-terms" type="checkbox" name="terms" tabindex="-1" checked>
+        <label class="text--white signup-form__terms--text">
+          By clicking 'Sign-up', I agree to <a class="white-alternate-link" target="_blank" href="/terms/">Cloudflare's
+          terms and conditions</a> and <a class="white-alternate-link" href="/security-policy/" target="_blank">privacy
+          policy</a>.
+        </label>
+      </div>
+      <div class="signup-form__terms signup-form__terms--checkbox hidden-element">
+        <input type="checkbox" name="terms" tabindex="-1">
+        <label class="text--white signup-form__terms--text">
+          I agree to <a class="white-alternate-link" target="_blank" href="/terms/">Cloudflare's
+          terms and conditions</a> and <a class="white-alternate-link" href="/security-policy/" target="_blank">privacy
+          policy</a>.
+        </label>
+      </div>
+    </div>
+    <div class="grid__item grid__item--fifth grid__item--no-bottom-margin grid__item--padding-10px grid__row--top">
+        <input type="submit" value="Sign Up" class="button button--orange button--inline"/>
+    </div>
+  </div>
+</form>
+      </div>
+    </div>
+  </section>
+
+<section class="homepage-video js-hero__video-area homepage__movie-hero">
+  <div class="homepage-video__viewport homepage-video__viewport-b">
+    <div class="tile__content tile__content--fixed tile--large-padding-top-bottom">
+      <div class="grid js-homepage-video__viewport">
+        <div class="grid__item">
+          <img class="homepage__movie-hero__logo" src="img/lp/logos/white/crunchbase.png">
+          <h1 class="homepage__movie-hero__title">Cloudflare helps Crunchbase stay online during traffic spikes from breaking news, or malicious attacks.</h1>
+          <div class="js-homepage-video__play-text">
+            <img src="/img/lp/icons/play-media.png" style="margin-right:10px;width:42px;">
+            <a href="#" class="homepage__movie-hero__play-cta">Watch the case study</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid homepage__movie-hero__logos">
+        <div class="grid__item grid__item--100">
+          <a class="homepage__movie-hero__sublink" href="/case-studies/">Read more customer stories ></a>
+          <div class="grid marketing-form__enterprise-logos">
+              <div class="grid__item grid__item--sixth"><img class="marketing-form__enterprise-logo" src="/img/logo/transparent/digital-ocean.png"></div>
+              <div class="grid__item grid__item--sixth"><img class="marketing-form__enterprise-logo" src="/img/logo/transparent/cisco.png"></div>
+              <div class="grid__item grid__item--sixth"><img class="marketing-form__enterprise-logo" src="/img/logo/transparent/zendesk.png"></div>
+              <div class="grid__item grid__item--sixth"><img class="marketing-form__enterprise-logo" src="/img/logo/transparent/nasdaq.png"></div>
+              <div class="grid__item grid__item--sixth"><img class="marketing-form__enterprise-logo" src="/img/logo/transparent/mapbox.png"></div>
+              <div class="grid__item grid__item--sixth"><img class="marketing-form__enterprise-logo" src="/img/logo/transparent/quizlet.png"></div>
+          </div>
+
+        </div>
+      </div>
+
+<form action="/a/sign-up" method="POST">
+  <div class="grid">
+    <div class="grid__item grid__item--50">
+      <p class="homepage__movie-hero__copy">Cloudflare makes more than 7,000,000 Internet properties faster and safer.</p>
+      <p class="homepage__movie-hero__copy">Get Started today!</p>
+    </div>
+
+    <div class="grid__item grid__item--50">
+      <input
+        class="signup-form__input-field"
+        name="email"
+        autocomplete="off" placeholder="Email *"
+      />
+
+      <input
+        class="signup-form__input-field"
+        name="password"
+        type="password"
+        autocomplete="off" placeholder="Password *"
+      />
+
+      <div class="grid">
+        <div class="grid__item grid__item--40">
+            <input type="submit" value="Sign Up" class="button button--orange button--inline"/>
+        </div>
+
+        <div class="grid__item grid__item--60">
+          <div class="signup-form__terms signup-form__terms--no-checkbox">
+            <input class="no-terms" type="checkbox" name="terms" tabindex="-1" checked>
+            <label class="text--white signup-form__terms--text">
+              By clicking 'Sign-up', I agree to <a class="white-alternate-link" target="_blank" href="/terms/">Cloudflare's
+              terms and conditions</a> and <a class="white-alternate-link" href="/security-policy/" target="_blank">privacy
+              policy</a>.
+            </label>
+          </div>
+          <div class="signup-form__terms signup-form__terms--checkbox hidden-element">
+            <input type="checkbox" name="terms" tabindex="-1">
+            <label class="text--white signup-form__terms--text">
+              I agree to <a class="white-alternate-link" target="_blank" href="/terms/">Cloudflare's
+              terms and conditions</a> and <a class="white-alternate-link" href="/security-policy/" target="_blank">privacy
+              policy</a>.
+            </label>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <p><a href="/howto/default.asp" class="w3-button w3-dark-grey w3-padding-large">SEE ALL SNIPPETS</a></p>
-</div>
-
-<div class="w3-display-container w3-black" id="certsection">
-  <a href="/cert/default.asp">
-    <img src="getcertified.jpg" style="max-width:100%;margin:auto;display:block" alt="W3 Certificates">
-    <div class="certoverlay">
-    <br class="w3-hide-small w3-hide-medium">
-      <h2>Web Certificates</h2><h3>Get Certified in HTML, CSS, and JavaScript</h3>
+</form>
     </div>
-  </a>
-  <p class="w3-display-middle getcert"><a href="/cert/default.asp" class="w3-button w3-green w3-hover-white w3-padding-large" style="font-size:17px">Get Certified &raquo;</a></p>
+  </div>
+</section>
+
+
+<section class="tile tile__background--white js-hero__map-area">
+  <div class="tile__content tile__content--fixed">
+    <h1 class="marketing-h2 marketing-h2--long-title marketing-h2--center">A Growing Global Network Built for
+      Scale</h1>
+    <p class='marketing-tagline marketing-tagline--margin-bottom'>15 Tbps Capacity and
+      121 Data Center Global Footprint</p>
+
+    <div class="grid grid--center">
+      <div class='network-map js-linkable' data-url="/network/">
+        
+        <svg class='network-map__map network-map__map--gradient js-network-map' height='0'></svg>
+        <noscript><img src='/img/network-map/network-map-gradient.png'
+                       class='network-map__fallback-image'
+                       alt="Network Map of Cloudflare's Data Centers"></noscript>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="tile tile--gray">
+    <div class="tile__content tile__content--fixed">
+
+      <div class="grid">
+        <div class='grid__item'>
+          <h2 class="marketing-h2 marketing-h2--long-title">Making the Internet Work the Way It Should for Anything Online</h2>
+
+          <div class='marketing-body'>
+
+            <p>Cloudflare speeds up and protects millions of websites, APIs,
+            SaaS services, and other properties connected to the Internet. Our
+            Anycast technology enables our benefits to scale with every server
+            we add to our growing footprint of data centers.</p>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="grid__item grid__item--half grid__item--feature
+          tile__background--purple text--white">
+          <h3 class='medium-heading'>Performance</h3>
+          <p class='text--extra-small'>Cloudflare dramatically improves website
+          performance through our global <a href="/cdn/" class="text--white">CDN</a> and
+          web optimization features. <a href="/performance/"><span class="homepage-feature-cta
+            homepage-feature-cta--purple">Learn more</span></a></p>
+        </div>
+        <div class="grid__item grid__item--half grid__item--feature
+          tile__background--green text--white">
+          <h3 class='medium-heading'>Security</h3>
+          <p class='text--extra-small'>Cloudflare’s <a href="/waf/" class="text--white">WAF</a>, <a href="/ddos/" class="text--white">DDoS protection</a>, and
+          SSL defend website owners and their visitors from all types of
+          online threats. <a href="/security/"><span class="homepage-feature-cta
+            homepage-feature-cta--green">Learn more</span></a></p>
+
+        </div>
+        <div class="grid__item grid__item--half grid__item--feature
+          tile__background--blue text--white">
+          <h3 class='medium-heading'>Reliability</h3>
+          <p class='text--extra-small'>With over 35% market share, Cloudflare
+          runs the largest, fastest, and most reliable <a href="/dns/" class="text--white">managed DNS</a> service in
+          the world. <a href="/reliability/"><span class="homepage-feature-cta
+            homepage-feature-cta--blue">Learn more</span></a></p>
+
+        </div>
+        <div class="grid__item grid__item--half grid__item--feature
+          tile__background--yellow text--white">
+          <h3 class='medium-heading'>Insight</h3>
+          <p class='text--extra-small'>Cloudflare’s network helps identify visitor
+          and bot behavior that isn’t accessible to conventional analytics technologies. <a href="/insights/"><span class="homepage-feature-cta
+            homepage-feature-cta--yellow">Learn more</span></a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+<section class="tile tile--border tile__background--white js-cloudflare-setup-video-tile">
+  <div class="tile__content tile__content--fixed">
+    <h2 class="marketing-h2 marketing-h2--center marketing-h2--bottom-margin">
+      Setting Up Cloudflare Is Easy
+    </h2>
+    <div class="grid grid--center">
+      <video class='grid__item grid__item js-cloudflare-setup-video no-margin-bottom'
+             src="/video/cloudflare-setup.mp4"
+             poster="/img/getting-started.png"
+             autoplay
+             loop>
+        Sorry, your browser doesn't support embedded videos,
+        but don't worry, you can <a href="/video/cloudflare-setup.mp4">download it</a>
+        and watch it with your favorite video player!
+      </video>
+      <p>Set up a domain in less than 5 minutes. Keep your hosting provider.
+      No code changes required.</p>
+  </div>
+</section>
+
+  <section class="tile tile__background--white
+    tile__background--green">
+    <div class="tile__content tile__content--fixed">
+      <h2 class="tile__heading tile__heading--center text--white">
+        Cloudflare makes more than 7,000,000 Internet properties faster and safer. Join today!
+      </h2>
+      <div class="grid grid--center">
+        <div class="grid__item grid__item--fourth-half">
+          <a href="https://www.cloudflare.com/a/sign-up" class="button button--orange button--inline">Sign up</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tile tile--gray">
+    <div class="tile__content tile__content--fixed">
+      <div class="homepage-customer-quote">
+
+        <div class="icon-quote-left homepage-customer-quote__quotemark"></div>
+
+        <div class="homepage-customer-quote__quote">Cloudflare’s solution just works. Their team accomplished all our requirements and customizations propagated near instantly. And, as an added bonus, their pricing is predictable and flat, regardless of how much our bandwidth usage grows.</div>
+
+        <div class="homepage-customer-quote__by">
+          <div class="homepage-customer-quote__logo">
+            <img alt="Zendesk Logo" src="/img/homepage/zendesk-logo.svg">
+          </div>
+          <div class="homepage-customer-quote__name">
+            AMANDA KLEHA<br>
+            GM of Zendesk Online Business Unit
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<section class="tile tile__background--white trusted-by-en ">
+  <div class="tile__content--fixed">
+    <div class="tile__row text--row-extra">
+      <h2 class="marketing-h2 marketing-h2--center">Trusted By</h2>
+      <div class="center-text">
+          <a href="/case-studies/" class="button--gt-after">Read some of our case studies</a>
+      </div>
+    </div>
+    <div class="grid">
+      
+        <div class="grid__item--half-mobile grid__item--half-tablet grid__item grid__item--half-fourth">
+          <img class="image-100-max" src="/img/logo/logo1.jpg">
+        </div>
+        <div class="grid__item--half-mobile grid__item--half-tablet grid__item grid__item--half-fourth">
+          <img class="image-100-max" src="/img/logo/logo2.jpg">
+        </div>
+        <div class="grid__item--half-mobile grid__item--half-tablet grid__item grid__item--half-fourth">
+          <img class="image-100-max" src="/img/logo/logo3.jpg">
+        </div>
+        <div class="grid__item--half-mobile grid__item--half-tablet grid__item grid__item--half-fourth">
+          <img class="image-100-max" src="/img/logo/logo4.jpg">
+        </div>
+        <div class="grid__item--half-mobile grid__item--half-tablet grid__item grid__item--half-fourth">
+          <img class="image-100-max" src="/img/logo/logo5.jpg">
+        </div>
+        <div class="grid__item--half-mobile grid__item--half-tablet grid__item grid__item--half-fourth">
+          <img class="image-100-max" src="/img/logo/logo6.jpg">
+        </div>
+        <div class="grid__item--half-mobile grid__item--half-tablet grid__item grid__item--half-fourth">
+          <img class="image-100-max" src="/img/logo/logo7.jpg">
+        </div>
+        <div class="grid__item--half-mobile grid__item--half-tablet grid__item grid__item--half-fourth">
+          <img class="image-100-max" src="/img/logo/logo8.jpg">
+        </div>
+        <div class="grid__item--half-mobile grid__item--half-tablet grid__item grid__item--half-fourth">
+          <img class="image-100-max" src="/img/logo/logo9.jpg">
+        </div>
+        <div class="grid__item--half-mobile grid__item--half-tablet grid__item grid__item--half-fourth">
+          <img class="image-100-max" src="/img/logo/logo10.jpg">
+        </div>
+        <div class="grid__item--half-mobile grid__item--half-tablet grid__item grid__item--half-fourth">
+          <img class="image-100-max" src="/img/logo/logo11.jpg">
+        </div>
+        <div class="grid__item--half-mobile grid__item--half-tablet grid__item grid__item--half-fourth">
+          <img class="image-100-max" src="/img/logo/logo12.jpg">
+        </div>
+    </div>
+  </div>
+</section>
+
+  <section class="tile tile__background--blue backedby-section">
+    <div class="tile__content tile__content--fixed">
+      <h2 class="tile__heading tile__heading--center text--white">
+        Backed by
+      </h2>
+      <div class="grid grid--center">
+        <div class="grid__item grid__item--full-fourth">
+          <img alt="Microsoft Logo" src="/img/homepage/microsoft.svg" class="banner-image banner-image--200px-width">
+        </div>
+        <div class="grid__item grid__item--full-fourth">
+          <img alt="Google Logo" src="/img/homepage/google.svg" class="banner-image banner-image--200px-width">
+        </div>
+        <div class="grid__item grid__item--full-fourth">
+          <img alt="Baidu Logo" src="/img/homepage/baidu.svg" class="banner-image banner-image--200px-width backedby-section__baidu-logo">
+        </div>
+        <div class="grid__item grid__item--full-fourth">
+          <img alt="Qualcomm Logo" src="/img/homepage/qualcomm.svg" class="banner-image banner-image--200px-width backedby-section__qualcomm-logo">
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
 
-<footer class="w3-container w3-dark-grey w3-center w3-padding-32">
- <div class="w3-container w3-padding-32">
-   <a class="w3-button w3-light-grey w3-hide-small w3-hide-medium w3-left" href="/cert/default.asp" style="font-size:16px;margin-top:-9px">WEB CERTIFICATES</a>
-   <a class="w3-button w3-light-grey w3-hide-small w3-hide-medium w3-left" href="/quiztest/quiztest.asp?Qtest=HTML" style="font-size:16px;margin-top:-9px;margin-left:12px">QUIZZES</a>
-   <a class="w3-button w3-light-grey w3-hide-small w3-hide-medium w3-left" target="_blank" href="/html/exercise.asp?filename=exercise_attributes1" style="font-size:16px;margin-top:-9px;margin-left:12px">EXERCISES</a>
-   <a class="w3-button w3-light-grey w3-hide-large" href="/cert/default.asp" style="font-size:16px;margin-bottom:16px">CERTIFICATES</a>
-   <a class="w3-button w3-light-grey w3-hide-large" href="/quiztest/quiztest.asp?Qtest=HTML" style="font-size:16px;margin-bottom:16px;">QUIZZES</a>
-   <a class="w3-button w3-light-grey w3-hide-large" target="_blank" href="/html/exercise.asp?filename=exercise_attributes1" style="font-size:16px;margin-bottom:16px;">EXERCISES</a>
-   <nav class="w3-right w3-hide-medium w3-hide-small w3-wide">
-    <a href="/forum/default.asp" target="_blank" class="w3-hover-text-green" style="text-decoration:none">FORUM</a> |
-    <a href="/about/default.asp" target="_top" class="w3-hover-text-green" style="text-decoration:none">ABOUT</a>
-   </nav>
-   <nav class="w3-center w3-hide-large w3-margin-top w3-wide">
-    <a href="/forum/default.asp" target="_blank" class="w3-hover-text-green" style="text-decoration:none">FORUM</a> |
-    <a href="/about/default.asp" target="_top" class="w3-hover-text-green" style="text-decoration:none">ABOUT</a>
-   </nav>
- </div>
- <p class="w3-medium">
- W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of
- all content. While using this site, you agree to have read and accepted our <a href="/about/about_copyright.asp" class="w3-hover-text-green">terms of use</a>, <a href="/about/about_privacy.asp" class="w3-hover-text-green">cookie and privacy policy</a>.<br>
- <a href="/about/about_copyright.asp" class="w3-hover-text-green">Copyright 1999-2018</a> by Refsnes Data. All Rights Reserved.<br><br></p>
- <a href="javascript:void(0);" onclick="clickFBLike()" title="Like W3Schools on Facebook" class="w3-hover-text-light-grey">
- <i class="fa fa-thumbs-o-up w3-xxlarge"></i></a>
- <div id="fblikeframe" class="w3-modal">
-  <div class="w3-modal-content w3-padding-64 w3-animate-zoom" id="popupDIV"></div>
- </div>
+<section class="meerkat-banner js-meerkat-banner meerkat-banner--signup" data-trigger="video" data-delay="25000">
+  <div class="meerkat-banner__close meerkat-banner__close-white js-meerkat-banner__close"></div>
+  <div class="meerkat-banner--content">
+<form action="/a/sign-up" method="POST">
+  <div class="signup-form grid grid--center">
+    <div class="grid__item grid__item--fifth grid__item--no-margins grid__item--padding-10px grid__row--top">
+      <p class="signup-form__label">Get Started Today</p>
+    </div>
+    <div class="grid__item grid__item--three-fifths grid__row--top no-margin-bottom">
+      <div class="grid">
+        <div class="grid__item grid__item--half nopad no-margin-bottom">
+          <input
+            class="signup-form__input-field"
+            name="email"
+            autocomplete="off" placeholder="Email *"
+          />
+        </div>
+        <div class="grid__item grid__item--half nopad no-margin-bottom">
+          <input
+            class="signup-form__input-field signup-form__input-field--inline"
+            name="password"
+            type="password"
+            autocomplete="off" placeholder="Password *"
+          />
+        </div>
+      </div>
+      <div class="signup-form__terms signup-form__terms--no-checkbox">
+        <input class="no-terms" type="checkbox" name="terms" tabindex="-1" checked>
+        <label class="text--white signup-form__terms--text">
+          By clicking 'Sign-up', I agree to <a class="white-alternate-link" target="_blank" href="/terms/">Cloudflare's
+          terms and conditions</a> and <a class="white-alternate-link" href="/security-policy/" target="_blank">privacy
+          policy</a>.
+        </label>
+      </div>
+      <div class="signup-form__terms signup-form__terms--checkbox hidden-element">
+        <input type="checkbox" name="terms" tabindex="-1">
+        <label class="text--white signup-form__terms--text">
+          I agree to <a class="white-alternate-link" target="_blank" href="/terms/">Cloudflare's
+          terms and conditions</a> and <a class="white-alternate-link" href="/security-policy/" target="_blank">privacy
+          policy</a>.
+        </label>
+      </div>
+    </div>
+    <div class="grid__item grid__item--fifth grid__item--no-bottom-margin grid__item--padding-10px grid__row--top">
+        <input type="submit" value="Sign Up" class="button button--orange button--inline"/>
+    </div>
+  </div>
+</form>
+  </div>
+</section>
+
+</div>
+
+
+<div class="modal search-modal-js" style="display:none;">
+  <div class="grid grid--center">
+    <div class="grid__item grid__item--two-thirds">
+      <div class="search-results">
+        <h2 class="marketing-h2 marketing-h2--center marketing-h2--bottom-margin">Search</h2>
+        <div class="grid__item--align-center">
+          <form class="st-search-form st-search-form--results">
+            <input class="st-search-input st-search-input-js st-search-input--results st-autocomplete-input" placeholder="Search"/>
+          </form>
+        </div>
+        <div id="st-results-container" class="st-result-listing"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Check if user is coming from a location to redirect to a translated page
+  (function() {
+    CFJS.Helpers.traceData().then(function() {
+      var userLoc = traceDataObj['loc'];
+      var userLangRedirected = getCookieValue("userLangRedirect") ? 1 : 0;
+
+      if (!userLangRedirected && (userLoc === 'ES' || userLoc === 'FR' || userLoc === 'DE' || userLoc === 'BR')) {
+        var pathname = location.pathname;
+        var url;
+        var URLLang;
+        var exp = /^\/[A-z]{2}\//; // matches a lang such as /es/ or /de/
+
+        userLoc = userLoc.toLowerCase();
+        url = pathname;
+        URLLang = url.substring(0, 4);
+
+        if (!URLLang.match(exp)) {
+          // Special case for vanilla URLs without a lang substring
+          CFJS.Tools.saveUTMReferrerLS();
+
+          url = '/' + userLoc + url;
+          setCookieTrue("userLangRedirect");
+          window.location = url;
+        } else {
+          if (URLLang.indexOf(userLoc) !== -1) {
+            return;
+          } else {
+            CFJS.Tools.saveUTMReferrerLS();
+
+            url = url.slice(3);
+            url = '/' + userLoc + url;
+            setCookieTrue("userLangRedirect");
+            window.location = url;
+          }
+        }
+      }
+    })
+  })();
+</script>
+
+<footer class="main-footer">
+  <!-- Top Section of the footer-->
+  <div class="main-footer__container">
+    <div class="main-footer__row">
+      <div class="main-footer__menu-group">
+        <ul id="salesMenu">
+              <li data-submenu="salesMenu" class="main-footer__menu-group__header js-toggle-footer-group">Contact Sales <i class="icon-caret-down"></i></li>
+              <li>
+                <a href="/plans/enterprise/contact/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="enterprise_sales"
+>
+                  Enterprise Sales
+                </a>
+            </li>
+              <li>
+                <a href="/partners/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="become_a_partner"
+>
+                  Become a Partner
+                </a>
+            </li>
+        </ul>
+        <p class="phone">
+          US: <a class="tel" href="tel:18889935273">+1 (888) 99 FLARE</a><br>
+        </p>
+        <p class="phone">
+          UK: <a class="tel" href="tel:4402035146970">+44 (0)20 3514 6970</a><br>
+        </p>
+        <p class="phone">
+          Brazil: <a class="tel" href="tel:551132304523">+55 (11) 3230 4523</a><br>
+        </p>
+        <p class="phone">
+          France: <a class="tel" href="tel:33757905273">+33 75 7 90 52 73</a><br>
+        </p>
+        <p class="phone">
+          Singapore: <a class="tel" href="tel:6531583954">+65 3158 3954</a><br>
+        </p>
+        <p class="phone">
+          Spain: <a class="tel" href="tel:34518880290">+34 518 880 290</a><br>
+        </p>
+        <p class="phone">
+          Int'l: <a class="tel" href="tel:16503198930">+1 (650) 319 8930</a><br>
+        </p>
+<!-- For future translated pages, you need to set translatedPage to 1
+in the template if you want this picker to show up. The logic to show this is in footer.html. -->
+<ul class="footer-language-picker footer-language-picker--mobile-only">
+      <li  class="footer-language-picker__active" >
+        <a href="https://www.cloudflare.com" data-tracking-category="footer" data-tracking-action="click" data-tracking-label="en">EN</a>
+      </li>
+      <li >
+        <a
+          href="https://www.cloudflare.com/es/"
+            data-tracking-category="footer"
+            data-tracking-action="click"
+            data-tracking-label="es"
+          >ES</a>
+      </li>
+      <li >
+        <a
+          href="https://www.cloudflare.com/fr/"
+            data-tracking-category="footer"
+            data-tracking-action="click"
+            data-tracking-label="fr"
+          >FR</a>
+      </li>
+      <li >
+        <a
+          href="https://www.cloudflare.com/de/"
+            data-tracking-category="footer"
+            data-tracking-action="click"
+            data-tracking-label="de"
+          >DE</a>
+      </li>
+      <li >
+        <a
+          href="https://www.cloudflare.com/br/"
+            data-tracking-category="footer"
+            data-tracking-action="click"
+            data-tracking-label="br"
+          >BR</a>
+      </li>
+</ul>
+      </div>
+
+      <div class="main-footer__menu-group">
+        <ul id="whatwedoMenu">
+              <li data-submenu="whatwedoMenu" class="main-footer__menu-group__header js-toggle-footer-group">What We Do <i class="icon-caret-down"></i></li>
+              <li>
+                <a href="/plans/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="plans"
+>
+                  Plans
+                </a>
+            </li>
+              <li>
+                <a href="/cdn/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="cdn"
+>
+                  CDN
+                </a>
+            </li>
+              <li>
+                <a href="/ddos/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="ddos"
+>
+                  DDoS
+                </a>
+            </li>
+              <li>
+                <a href="/dns/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="dns"
+>
+                  DNS
+                </a>
+            </li>
+              <li>
+                <a href="/security/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="web_security"
+>
+                  Web Security
+                </a>
+            </li>
+              <li>
+                <a href="/website-optimization/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="web_optimization"
+>
+                  Web Optimization
+                </a>
+            </li>
+              <li>
+                <a href="/network/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="network_map"
+>
+                  Network Map
+                </a>
+            </li>
+              <li>
+                <a href="/website-optimization/firebolt/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="ad_acceleration"
+>
+                  Ad Acceleration
+                </a>
+            </li>
+              <li>
+                <a href="/products/cloudflare-stream/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="stream"
+>
+                  Stream
+                </a>
+            </li>
+        </ul>
+      </div>
+
+      <div class="main-footer__menu-group">
+        <ul id="resourcesMenu">
+              <li data-submenu="resourcesMenu" class="main-footer__menu-group__header js-toggle-footer-group">Resources <i class="icon-caret-down"></i></li>
+              <li>
+                <a href="https://support.cloudflare.com"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="support"
+>
+                  Support
+                </a>
+            </li>
+              <li>
+                <a href="https://community.cloudflare.com"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="community"
+>
+                  Community
+                </a>
+            </li>
+              <li>
+                <a href="/technical-resources/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="technical_resources"
+>
+                  Technical Resources
+                </a>
+            </li>
+              <li>
+                <a href="/integrations/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="integrations"
+>
+                  Integrations
+                </a>
+            </li>
+              <li>
+                <a href="https://blog.cloudflare.com/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="blog"
+>
+                  Blog
+                </a>
+            </li>
+              <li>
+                <a href="/developers/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="developers"
+>
+                  Developers
+                </a>
+            </li>
+              <li>
+                <a href="/learning/ddos/what-is-a-ddos-attack/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="ddos_learning_center"
+>
+                  DDoS Learning Center
+                </a>
+            </li>
+              <li>
+                <a href="/learning/cdn/what-is-a-cdn/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="cdn_learning_center"
+>
+                  CDN Learning Center
+                </a>
+            </li>
+              <li>
+                <a href="/webinars/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="webinars"
+>
+                  Webinars
+                </a>
+            </li>
+              <li>
+                <a href="/gdpr/introduction/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="gdpr"
+>
+                  GDPR
+                </a>
+            </li>
+        </ul>
+      </div>
+
+      <div class="main-footer__menu-group">
+        <ul id="notadevMenu">
+              <li data-submenu="notadevMenu" class="main-footer__menu-group__header js-toggle-footer-group">Not a Developer? <i class="icon-caret-down"></i></li>
+              <li>
+                <a href="/case-studies/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="case_studies"
+>
+                  Case Studies
+                </a>
+            </li>
+              <li>
+                <a href="/resources/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="white_papers"
+>
+                  White Papers
+                </a>
+            </li>
+              <li>
+                <a href="/internet-summit/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="internet_summit"
+>
+                  Internet Summit
+                </a>
+            </li>
+        </ul>
+      </div>
+
+      <div class="main-footer__menu-group">
+        <ul id="aboutMenu">
+              <li data-submenu="aboutMenu" class="main-footer__menu-group__header js-toggle-footer-group">About <i class="icon-caret-down"></i></li>
+              <li>
+                <a href="/about-overview/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="overview"
+>
+                  Overview
+                </a>
+            </li>
+              <li>
+                <a href="/people/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="our_team"
+>
+                  Our Team
+                </a>
+            </li>
+              <li>
+                <a href="/careers/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="careers"
+>
+                  Careers
+                </a>
+            </li>
+              <li>
+                <a href="/logo/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="logo"
+>
+                  Logo
+                </a>
+            </li>
+              <li>
+                <a href="/press/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="press"
+>
+                  Press
+                </a>
+            </li>
+              <li>
+                <a href="/security-policy/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="privacy_policy"
+>
+                  Privacy Policy
+                </a>
+            </li>
+              <li>
+                <a href="/terms/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="terms_of_service"
+>
+                  Terms of Service
+                </a>
+            </li>
+              <li>
+                <a href="/abuse/"
+                    data-tracking-category="footer"
+                    data-tracking-action="click"
+                    data-tracking-label="trust_and_safety"
+>
+                  Trust and Safety
+                </a>
+            </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="main-footer__menu_bottom">
+      <div class="main-footer__menu_bottom__container">
+        <div class="main-footer__menu_bottom__social">
+          <a target="_blank" rel="noopener" href="https://www.facebook.com/Cloudflare/"><i class="icon-facebook-circled"></i></a>
+          <a target="_blank" rel="noopener" href="https://twitter.com/Cloudflare"><i class="icon-twitter-circled"></i></a>
+          <a target="_blank" rel="noopener" href="https://plus.google.com/+cloudflare"><i class="icon-gplus-circled"></i></a>
+          <a target="_blank" rel="noopener" href="https://www.linkedin.com/company/cloudflare-inc-"><i class="icon-linkedin-circled"></i></a>
+        </div>
+        <div class="main-footer__menu_bottom__copyright">
+          &copy; Cloudflare Inc.
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
 
-<!-- END MAIN -->
+<div class="eu-cookie-banner js-eu-cookie-banner">
+  <div class="eu-cookie-banner__content text--white text--center">
+    <p>To provide you with the best possible experience on our website, we may use cookies, as described <a href="/cookie-policy/">here</a>.<br>By clicking accept, closing this banner, or continuing to browse our websites, you consent to the use of such cookies.</p>
+    <div class="grid grid--center">
+      <div class="grid__item grid__item--fourth-half">
+        <button style="max-width: 120px;" class="button button--white button--inline js-accept-eu-cookie">I accept</button>
+      </div>
+    </div>
+    <div class="close_x js-accept-eu-cookie"></div>
+  </div>
 </div>
 
+
+    <script>
+      window.CFJS['config'] = {}
+      window.CFJS.config['env'] = '/marketing-api'
+    </script>
+
+    <script src="/js/vendor-c1c0475b0e.js"></script>
+    <script src="/js/core-a8b76cd23b.js"></script>
+<script src='/js/pages/homepage-f4b6c72465.js'></script>
+<script src="/js/vendor-homepage-f0a15f83bd.js"></script>
+<script src="/js/pages/transparent-header-c274c5a385.js"></script>
+
 <script>
-function w3_open() {
-  var x = document.getElementById("myAccordion");
-  if (x.style.display === 'none') {
-    x.style.display = 'block';
-  } else {
-    x.style.display = 'none';
+$(document).ready(function() {
+  function dataWord () {
+    $(".js-word-swap").attr("data-word-swap", function(i, data){
+      var $me = $(this),
+          $words = data.split("|"),
+          wordsCount = $words.length,
+          count = 0,
+          initialText = $me.text();
+
+      // Create spans out of other words
+      for(var i=0; i<wordsCount; i++) {
+        $me.after($('<span/>',{
+          class:"text--white-underline word-wrap-option",
+          style:"overflow:visible; display:none;",
+          text:$words[i]
+        }));
+      }
+
+      // Find and group spans created
+      $words = $me.parent().find(".word-wrap-option");
+
+      // Loop animation
+      (function loop(){
+        $words.stop().hide().eq(count).fadeIn().delay(2500).show(0, loop);
+        count = ++count % wordsCount;
+      }());
+    });
   }
-}
-function w3_close() {
-  document.getElementById("myAccordion").style.display = "none";
-}
-function open_xs_menu(x) {
-  if (document.getElementById("sectionxs_" + x).innerHTML == "") {
-    document.getElementById("sectionxs_" + x).innerHTML = document.getElementById("nav_" + x).innerHTML;
-  } else {
-    document.getElementById("sectionxs_" + x).innerHTML = "";
-  }
-}
-function w3_open_nav(x) {
-  if (document.getElementById("nav_" + x).style.display == "block") {
-    w3_close_nav(x);
-  } else {
-    w3_close_nav("tutorials");
-    w3_close_nav("references");
-    w3_close_nav("examples");
-    document.getElementById("nav_" + x).style.display = "block";
-    if (document.getElementById("navbtn_" + x)) {
-      document.getElementById("navbtn_" + x).getElementsByTagName("i")[0].style.display = "none";
-      document.getElementById("navbtn_" + x).getElementsByTagName("i")[1].style.display = "inline";
-    } 
-    if (x == "search") {
-      if (document.getElementById("gsc-i-id1")) {document.getElementById("gsc-i-id1").focus(); }
-    }
-  }
-}
-function w3_close_nav(x) {
-  document.getElementById("nav_" + x).style.display = "none";
-  if (document.getElementById("navbtn_" + x)) {
-    document.getElementById("navbtn_" + x).getElementsByTagName("i")[0].style.display = "inline";
-    document.getElementById("navbtn_" + x).getElementsByTagName("i")[1].style.display = "none";
-  }
-}
-function open_translate(elmnt) {
-  var a = document.getElementById("google_translate_element");
-  if (a.style.display == "") {
-    a.style.display = "none";
-    elmnt.innerHTML = "<i class='fa'>&#xe801;</i>";
-  } else {
-    a.style.display = "";
-    if (window.innerWidth > 830) {
-      a.style.width = "20%";
-    } else {
-      a.style.width = "60%";
-    }
-    elmnt.innerHTML = "<span style='font-family:verdana;font-weight:bold;display:inline-block;width:21px;text-align:center;'>X</span>";
-  }
-}
-function open_search(elmnt) {
-  var a = document.getElementById("googleSearch");
-  document.getElementById("navbtn_tutorials").style.visibility = "visible";
-  if (a.style.display == "") {
-    a.style.display = "none";
-    elmnt.innerHTML = "<i class='fa'>&#xe802;</i>";    
-  } else {
-    a.style.display = "";  
-    if (window.innerWidth > 1000) {
-      a.style.width = "40%";
-    } else if (window.innerWidth >768) {
-      document.getElementById("navbtn_tutorials").style.visibility = "hidden";
-      a.style.width = "80%";    
-    } else {
-      a.style.width = "80%";
-    }
-    if (document.getElementById("gsc-i-id1")) {document.getElementById("gsc-i-id1").focus(); }
-    elmnt.innerHTML = "<span style='font-family:verdana;font-weight:bold;display:inline-block;width:23px;text-align:center;'>X</span>";
-  }
-}
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-  pageLanguage: 'en',
-  autoDisplay: false,    
-  gaTrack: true,
-  gaId: 'UA-3855518-1',
-  layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-  }, 'google_translate_element');
-}
-function clickFBLike() {
-  document.getElementById("fblikeframe").style.display='block';
-  document.getElementById("popupDIV").innerHTML = "<iframe src='/fblike.asp?r=" + Math.random() + "' frameborder='no' style='height:200px;width:250px;'></iframe><br><button onclick='hideFBLike()' class='w3-button w3-dark-grey w3-hover-black'>Close</button>";
-}
-function hideFBLike() {
-  document.getElementById("fblikeframe").style.display='none';
-}
+  dataWord();
+});
 </script>
-<script src="/lib/w3codecolor.js"></script>
-<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script>
-w3CodeColor();
+  CFJS.CookieHelpers.shouldLoadUserCookies().then(function(userCookiesAllowed){
+    if (userCookiesAllowed) {
+      var bizibleJS = document.createElement('script');
+      bizibleJS.id = 'bizible-settings';
+      bizibleJS.setAttribute('src', document.location.protocol + '//cdn.bizible.com/scripts/bizible.js');
+      bizibleJS.setAttribute('data-cookie-domain', 'www.cloudflare.com');
+      bizibleJS.async = true;
+      document.head.appendChild(bizibleJS);
+    }
+  });
 </script>
-</body>
+
+<script>
+  CFJS.CookieHelpers.shouldLoadUserCookies().then(function(userCookiesAllowed){
+    if (userCookiesAllowed) {
+      /* <![CDATA[ */
+      var google_conversion_id = 972248548;
+      var google_custom_params = window.google_tag_params;
+      var google_remarketing_only = true;
+      /* ]]> */
+
+      var googleAdwordsJS = document.createElement('script');
+      googleAdwordsJS.setAttribute('src', document.location.protocol + '//www.googleadservices.com/pagead/conversion.js');
+      googleAdwordsJS.async = true;
+      document.head.appendChild(googleAdwordsJS);
+    }
+  });
+</script>
+
+<script>
+CFJS.CookieHelpers.shouldLoadUserCookies().then(function(userCookiesAllowed){
+  if (userCookiesAllowed) {
+    (function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5268204"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+  }
+});
+</script>
+
+<noscript>
+  <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/972248548/?value=0&amp;guid=ON&amp;script=0"/>
+  </div>
+</noscript>
+<noscript><img src="//bat.bing.com/action/0?ti=5268204&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+
+<script>
+  CFJS.CookieHelpers.shouldLoadUserCookies().then(function(userCookiesAllowed){
+    if (userCookiesAllowed) {
+      var cedexisRadarJS = document.createElement('script');
+      cedexisRadarJS.setAttribute('src', document.location.protocol + '//radar.cedexis.com/1/10996/radar.js');
+      cedexisRadarJS.async = true;
+      document.head.appendChild(cedexisRadarJS);
+    }
+  });
+</script>
+  </body>
 </html>
